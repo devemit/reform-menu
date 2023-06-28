@@ -1,0 +1,30 @@
+.card_grid {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 1rem;
+  padding: 4rem;
+}
+@media (min-width: 600px) {
+  .card_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .card_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .card_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.drinks-nav_btn {
+  text-decoration: none;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
