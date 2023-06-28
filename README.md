@@ -8,7 +8,7 @@
 ## Overview
 ## Links 
 - Repository URL: [View code](https://github.com/devemit/reform)
-- Live Site URL: [Live Preview](https://reformbeachbar.netlify.app/)
+- Live Site URL: [Live Preview](https://reformdojran.vercel.app/)
 
 ## Built with
 - React JS
