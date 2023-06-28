@@ -3,26 +3,24 @@ import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
 import HomeLayout from './pages/homeLayout/HomeLayout';
-import {
-  Foods,
-  Drinks,
-  Coffees,
-  Alcohol,
-  Coctails,
-  Juices,
-  Beers,
-  Wines,
-  Waters,
-  Breakfast,
-  Pasta,
-  Toasts,
-  Burgers,
-  Rissoto,
-  Salads,
-  Sandwiches,
-  Deserts,
-  Appetizers,
-} from './pages';
+import Foods from './pages/foods/Foods';
+import Drinks from './pages/drinks/Drinks';
+import Coffees from './pages/drinks/Coffees';
+import Alcohol from './pages/drinks/Alcohol';
+import Coctails from './pages/drinks/Coctails';
+import Juices from './pages/drinks/Juices';
+import Beers from './pages/drinks/Beers';
+import Wines from './pages/drinks/Wines';
+import Waters from './pages/drinks/Waters';
+import Breakfast from './pages/foods/Breakfast';
+import Pasta from './pages/foods/Pasta';
+import Toasts from './pages/foods/Toasts';
+import Burgers from './pages/foods/Burgers';
+import Rissoto from './pages/foods/Rissoto';
+import Salads from './pages/foods/Salads';
+import Sandwiches from './pages/foods/Sandwiches';
+import Deserts from './pages/foods/Deserts';
+import Appetizers from './pages/foods/Appetizers';
 
 const App = () => {
   return (
