@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import MainHeader from './components/Navbar/MainHeader';
-import HomeLayout from './pages/HomeLayout/HomeLayout';
+import MainHeader from './components/navbar/MainHeader';
+import HomeLayout from './pages/homeLayout/HomeLayout';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
 import {

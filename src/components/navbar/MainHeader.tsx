@@ -3,11 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const MainHeader = () => {
-  const [nav, setNav] = useState(false);
   const [height, setHeight] = useState('12rem');
-  const handleNav = () => {
-    setNav(!nav);
-  };
 
   useEffect(() => {
     const heightChange = () => {
