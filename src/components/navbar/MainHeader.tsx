@@ -1,5 +1,4 @@
 import './MainHeader.css';
-import { CgCloseR, CgMenuBoxed } from 'react-icons/cg';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
