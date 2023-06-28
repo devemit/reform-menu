@@ -16,7 +16,6 @@ import Salads from './foods/Salads';
 import Sandwiches from './foods/Sandwiches';
 import Deserts from './foods/Deserts';
 import Appetizers from './foods/Appetizers';
-import HomeLayout from './homeLayout/HomeLayout';
 
 export {
   Foods,
@@ -37,5 +36,4 @@ export {
   Sandwiches,
   Deserts,
   Appetizers,
-  HomeLayout,
 };

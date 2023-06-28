@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
+import HomeLayout from './pages/homeLayout/HomeLayout';
 import {
   Foods,
   Drinks,
@@ -21,7 +22,6 @@ import {
   Sandwiches,
   Deserts,
   Appetizers,
-  HomeLayout,
 } from './pages';
 
 const App = () => {
