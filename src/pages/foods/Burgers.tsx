@@ -1,4 +1,4 @@
-import ButtonBack from '../../components/ButtonBack/ButtonBack';
+import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
 
@@ -6,7 +6,7 @@ const Burgers = () => {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack link={'/menu/foods'} />
+        <ButtonBack link={'/foods'} />
         <DrinktsTitle label={'Бургери/Burgers'} />
       </div>
       <table>

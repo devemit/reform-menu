@@ -1,12 +1,12 @@
 import React from 'react';
-import ButtonBack from '../../components/ButtonBack/ButtonBack';
+import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
 export default function Rissoto() {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack link={'/menu/foods'} />
+        <ButtonBack link={'/foods'} />
         <DrinktsTitle label={'Рижота/Rissoto'} />
       </div>
       <table>

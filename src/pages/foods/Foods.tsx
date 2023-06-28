@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Foods = () => {
   return (
     <>
-      <Link to='/menu'>
+      <Link to='/'>
         <BsArrowLeftShort size={30} style={{ margin: '1rem', color: 'black' }} />
       </Link>
       <div className='card_grid'>

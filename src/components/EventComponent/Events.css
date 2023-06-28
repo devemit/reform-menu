@@ -1,0 +1,83 @@
+.event_container {
+  padding-top: 4rem;
+}
+.event_one {
+  display: block;
+}
+.event_one h2,
+p {
+  text-align: center;
+  padding: 1rem;
+}
+.figure {
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+  position: relative;
+}
+.tile {
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+}
+
+.content_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.text_one h2 {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.wavehor {
+  padding: 3rem;
+}
+.wavever {
+  padding: 2rem;
+}
+.content_two h2 {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.events {
+  padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  .figure {
+    max-width: 60%;
+    padding: 0rem 4rem;
+  }
+  .event_one {
+    display: flex;
+  }
+
+  .event_two {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .text_one {
+    display: block;
+    max-width: 300px;
+  }
+  .text_one h2 {
+    text-align: left;
+    padding: 1rem;
+  }
+  .text_one p {
+    margin-top: 1rem;
+    text-align: left;
+    padding: 1rem;
+  }
+  .content_two {
+    padding-top: 5rem;
+  }
+  .events li {
+    font-size: 1.2rem;
+  }
+}

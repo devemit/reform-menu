@@ -6,7 +6,7 @@ import { BsArrowLeftShort } from 'react-icons/bs';
 const Drinks = () => {
   return (
     <>
-      <Link to='/menu'>
+      <Link to='/'>
         <BsArrowLeftShort size={30} style={{ margin: '1rem', color: 'black' }} />
       </Link>
       <div className='card_grid'>
