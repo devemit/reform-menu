@@ -2,7 +2,8 @@ import './HomeLayout.css';
 import Capacity from '../../components/CapacityComponent/Capacity';
 import Events from '../../components/EventComponent/Events';
 import Menu from '../MenuComponent/Menu';
-const HomeLayout = () => {
+
+const HeroLayout = () => {
   return (
     <>
       <Menu />
@@ -12,4 +13,4 @@ const HomeLayout = () => {
   );
 };
 
-export default HomeLayout;
+export default HeroLayout;
