@@ -24,7 +24,12 @@ const Capacity = () => {
       <div className='content_wrapper' data-aos='fade-up'>
         <div className='content'>
           {items.map((item) => (
-            <CapacityInfo imgUrl={item.imgUrl} desc={item.desc} title={item.title} />
+            <CapacityInfo
+              key={item.title}
+              imgUrl={item.imgUrl}
+              desc={item.desc}
+              title={item.title}
+            />
           ))}
         </div>
       </div>

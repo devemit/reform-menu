@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
-import HeroLayout from './pages/homeLayout/HeroLayout';
 import QR from './components/QR';
 import Foods from './pages/foods/Foods';
 import Drinks from './pages/drinks/Drinks';
@@ -21,14 +20,18 @@ import Salads from './pages/foods/Salads';
 import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
-
+import Menu from './pages/MenuComponent/Menu';
+import Events from './components/EventComponent/Events';
+import Capacity from './components/CapacityComponent/Capacity';
 const App = () => {
   return (
     <>
       <MainHeader />
       <ScrollToTop />
+      <Menu />
+      <Capacity />
+      <Events />
       <Routes>
-        <Route path='/' element={<HeroLayout />} />
         {/* foods */}
         <Route path='/foods' element={<Foods />} />
         <Route path='/foods/breakfast' element={<Breakfast />} />
