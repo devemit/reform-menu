@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
-import HeroLayout from './pages/homeLayout/HomeLayout';
+import Hero from './pages/homeLayout/Hero';
 import Foods from './pages/foods/Foods';
 import Drinks from './pages/drinks/Drinks';
 import Coffees from './pages/drinks/Coffees';
@@ -28,7 +28,7 @@ const App = () => {
       <MainHeader />
       <ScrollToTop />
       <Routes>
-        <Route path='/' element={<HeroLayout />} />
+        <Route path='/' element={<Hero />} />
         {/* foods */}
         <Route path='/foods' element={<Foods />} />
         <Route path='/foods/breakfast' element={<Breakfast />} />

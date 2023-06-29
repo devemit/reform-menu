@@ -3,7 +3,7 @@ import Capacity from '../../components/CapacityComponent/Capacity';
 import Events from '../../components/EventComponent/Events';
 import Menu from '../MenuComponent/Menu';
 
-const HeroLayout = () => {
+const Hero = () => {
   return (
     <>
       <Menu />
@@ -13,4 +13,4 @@ const HeroLayout = () => {
   );
 };
 
-export default HeroLayout;
+export default Hero;
