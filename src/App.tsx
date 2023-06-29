@@ -20,15 +20,14 @@ import Salads from './pages/foods/Salads';
 import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
-import Hero from './components/Hero';
+import Home from './pages/Home';
 const App = () => {
   return (
     <>
       <MainHeader />
-      <ScrollToTop />
       <Routes>
         {/* foods */}
-        <Route path='/' element={<Hero />} />
+        <Route path='/' element={<Home />} />
         <Route path='/foods' element={<Foods />} />
         <Route path='/foods/breakfast' element={<Breakfast />} />
         <Route path='/foods/appetizers' element={<Appetizers />} />
@@ -49,6 +48,7 @@ const App = () => {
         <Route path='/drinks/coctails' element={<Coctails />} />
         <Route path='/drinks/alcohol' element={<Alcohol />} />
       </Routes>
+      <ScrollToTop />
       <QR />
     </>
   );

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Menu.css';
 
 interface MenuCardProps {
@@ -12,9 +12,9 @@ const MenuCard: React.FC<MenuCardProps> = ({ imgUrl, label, link }) => {
     <div className='fullwrap'>
       <img src={imgUrl} alt='/' />
       <div className='fullcap'>
-        <Link className='menu_btn' to={link}>
+        <NavLink className='menu_btn' to={link}>
           {label}
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

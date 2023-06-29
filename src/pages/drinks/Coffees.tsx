@@ -5,7 +5,7 @@ const Coffees = () => {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack link={'/drinks'} />
+        <ButtonBack link={'menu/drinks'} />
         <DrinktsTitle label={'Кафе/Coffee'} />
       </div>
       <table>
