@@ -23,16 +23,18 @@ import Appetizers from './pages/foods/Appetizers';
 import Menu from './pages/MenuComponent/Menu';
 import Events from './components/EventComponent/Events';
 import Capacity from './components/CapacityComponent/Capacity';
+import Hero from './components/Hero';
 const App = () => {
   return (
     <>
       <MainHeader />
       <ScrollToTop />
-      <Menu />
-      <Capacity />
-      <Events />
+      {/* <Menu /> */}
+      {/* <Capacity /> */}
+      {/* <Events /> */}
       <Routes>
         {/* foods */}
+        <Route path='/' element={<Hero />} />
         <Route path='/foods' element={<Foods />} />
         <Route path='/foods/breakfast' element={<Breakfast />} />
         <Route path='/foods/appetizers' element={<Appetizers />} />

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './styles/Cards.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface CardItemProps {
   title: string;
@@ -11,7 +10,7 @@ interface CardItemProps {
 const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
   return (
     <div>
-      <LazyLoadImage
+      <img
         src={img}
         alt='/'
         style={{ width: '100% ', height: '300px', objectFit: 'cover' }}
