@@ -4,12 +4,7 @@ const foodcards = [
     img: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
     link: '/foods/breakfast',
   },
-  {
-    title: 'Предјадења',
-    img: 'https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-    link: '/foods/appetizers',
-  },
-
+  
   {
     title: 'Салати',
     img: 'https://images.unsplash.com/photo-1516224430621-90032db0df67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80',
@@ -39,6 +34,11 @@ const foodcards = [
     title: 'Рижота',
     img: 'https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
     link: '/foods/rissoto',
+  },
+  {
+    title: 'Предјадења',
+    img: 'https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    link: '/foods/appetizers',
   },
 
   {
