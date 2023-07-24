@@ -42,10 +42,8 @@
   cursor: pointer;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
-}
-
-.link {
   font-weight: 800;
   text-decoration: none;
   color:var(--gold);
 }
+
