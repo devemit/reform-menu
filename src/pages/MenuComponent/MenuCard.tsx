@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Menu.css';
 
 interface MenuCardProps {
@@ -9,13 +9,13 @@ interface MenuCardProps {
 
 const MenuCard: React.FC<MenuCardProps> = ({ imgUrl, label, link }) => {
   return (
-    <div className='fullwrap'>
-      <img src={imgUrl} alt='/' />
-      <div className='fullcap'>
-        <NavLink className='menu_btn' to={link}>
+    <div className='container'>
+      <img loading='lazy' src={imgUrl} alt='/' className='menu-card_image' />
+      <button className='btn_link'>
+        <NavLink className='link' to={link}>
           {label}
         </NavLink>
-      </div>
+      </button>
     </div>
   );
 };

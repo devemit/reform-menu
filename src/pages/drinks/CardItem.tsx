@@ -11,6 +11,7 @@ const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
   return (
     <div>
       <img
+        loading='lazy'
         src={img}
         alt='/'
         style={{ width: '100% ', height: '300px', objectFit: 'cover' }}
