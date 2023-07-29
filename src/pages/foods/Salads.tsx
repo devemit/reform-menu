@@ -17,20 +17,6 @@ export default function Salads() {
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
               <td>
-                Реформ 0.345кг
-                <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  марула,рукола,пршута,пармезан,
-                  <br />
-                  рокворд, шери, дресинг,маслиново масло
-                </span>
-              </td>
-            </div>
-            <td>250ден/4.5€</td>
-          </tr>
-          <tr>
-            <div style={{ maxWidth: '190px', margin: 'auto' }}>
-              <td>
                 Цезар 0.400кг
                 <br />
                 <span style={{ fontSize: '.7rem' }}>
