@@ -17,10 +17,13 @@ const Events = () => {
         <div className='text_one' data-aos='fade-right'>
           <h2>Reform</h2>
           <p>
-            On one of the most beautiful beaches of Dojran, awarded with a blue flag, lies
-            Reform Beach-Bar. Here, at the biggest beach bar in Dojran, you can enjoy
-            moments of relaxation by the water, as well as endless fun at parties, events
-            and live concerts featuring well-known artists.
+            Welcome to Reform Beach Bar, where relaxation meets excitement on the sandy
+            shores of paradise. Indulge in refreshing cocktails, soak up the sun on our
+            lounge chairs, and savor delectable bites with panoramic views of the
+            crystal-clear waters. Whether you're looking for a tranquil escape or a
+            vibrant beachside experience, Reform Beach Bar offers the perfect blend of
+            laid-back charm and seaside allure. Come unwind, socialize, and create
+            unforgettable memories at our beachfront oasis.
           </p>
           <img src='wavehor.png' alt='/' className='wavehor' />
         </div>

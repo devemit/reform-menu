@@ -35,6 +35,10 @@ const Beers = () => {
           <td>Радлер/Radler</td>
           <td>100ден/1.7€</td>
         </tr>
+        <tr>
+          <td>Точено/Pint</td>
+          <td>120ден/2€</td>
+        </tr>
       </table>
     </div>
   );

@@ -4,7 +4,7 @@ import './Menu.css';
 interface MenuCardProps {
   imgUrl?: string;
   label: string;
-  link: string;
+  link?: string;
 }
 
 const MenuCard: React.FC<MenuCardProps> = ({ imgUrl, label, link }) => {

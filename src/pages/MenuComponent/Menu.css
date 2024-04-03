@@ -5,6 +5,7 @@
   padding: 1rem;
   gap: 1rem;
 }
+
 @media (min-width: 750px) {
   .menu_container {
     flex-direction: row;
@@ -19,14 +20,14 @@
 }
 .container {
   text-align: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .btn_link {
-  background:#DADDE1;
+  background: #dadde1;
   width: 100%;
   height: 3.5rem;
   border: none;
-  outline:none;
+  outline: none;
   text-transform: uppercase;
   font-size: 2rem;
   cursor: pointer;
@@ -34,6 +35,5 @@
   border-bottom-right-radius: 15px;
   font-weight: 800;
   text-decoration: none;
-  color:var(--gold);
+  color: var(--gold);
 }
-
