@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Menu.css';
 
 interface MenuCardProps {
   imgUrl?: string;
   label: string;
-  link?: string;
+  link?: any;
 }
 
 const MenuCard: React.FC<MenuCardProps> = ({ imgUrl, label, link }) => {
