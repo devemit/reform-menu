@@ -27,3 +27,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: grey;
 }
+.tester {
+  padding: 1rem;
+}

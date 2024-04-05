@@ -1,4 +1,3 @@
-import React from 'react';
 import Menu from './MenuComponent/Menu';
 import Capacity from '../components/CapacityComponent/Capacity';
 import Events from '../components/EventComponent/Events';

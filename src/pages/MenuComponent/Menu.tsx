@@ -6,8 +6,8 @@ const Menu = () => {
     <div className='menu_container'>
       <MenuCard
         imgUrl='https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-        label={'Coming soon...'}
-        // link='/foods'
+        label={'FOODS'}
+        link='/foods'
       />
       <MenuCard
         imgUrl='https://images.pexels.com/photos/1189261/pexels-photo-1189261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'

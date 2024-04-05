@@ -1,0 +1,14 @@
+.btn-back {
+  color: var(--gold);
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--gold);
+  border-radius: 50px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}

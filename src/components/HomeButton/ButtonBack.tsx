@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { BsArrowLeftShort } from 'react-icons/bs';
-
+import './buttonstyles.css';
 interface ButtonProps {
   label?: string;
   link: string;
@@ -8,10 +8,12 @@ interface ButtonProps {
 
 const ButtonBack: React.FC<ButtonProps> = ({ link, label }) => {
   return (
-    <Link className='btn-back' to={link}>
-      <BsArrowLeftShort style={{ color: 'black', marginTop: '.7rem' }} size={30} />
-      {label}
-    </Link>
+    <div className='wrapper'>
+      <Link className='btn-back' to={link}>
+        <BsArrowLeftShort size={30} />
+      </Link>
+      <span className='label'>{label}</span>
+    </div>
   );
 };
 

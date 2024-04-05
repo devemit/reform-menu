@@ -1,14 +1,13 @@
 import cards from './cards';
 import CardItem from './CardItem';
-import { Link } from 'react-router-dom';
-import { BsArrowLeftShort } from 'react-icons/bs';
+import ButtonBack from '../../components/HomeButton/ButtonBack';
 
 const Drinks = () => {
   return (
     <>
-      <Link to='/'>
-        <BsArrowLeftShort size={30} style={{ margin: '1rem', color: 'black' }} />
-      </Link>
+      <div className='tester'>
+        <ButtonBack link={'/'} />
+      </div>
       <div className='card_grid'>
         {cards.map((el) => (
           <CardItem key={el.title} title={el.title} img={el.img} link={el.link} />
