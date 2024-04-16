@@ -17,7 +17,7 @@ const Coctails = () => {
 
         <tr>
           <td>Мохито/Mojito</td>
-          <td>220ден/3.8€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>Пина Колада/Pina Colada</td>
@@ -69,15 +69,15 @@ const Coctails = () => {
         </tr>
         <tr>
           <td>А.М.Ф/A.M.F</td>
-          <td>220ден/3.8€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>Аризона Твистер/Arizona Twister</td>
-          <td>220ден/3.8€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>Лонг Ајланд/Long Island</td>
-          <td>220ден/3.8€</td>
+          <td>220ден/3.7€</td>
         </tr>
       </table>
     </div>

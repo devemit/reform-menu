@@ -31,6 +31,18 @@ const Coffees = () => {
           <td>90ден/1.5€</td>
         </tr>
         <tr>
+          <td>Декаф Капучино/Decaf Cappuccino</td>
+          <td>100ден/1.7€</td>
+        </tr>
+        <tr>
+          <td>Декаф Макијато/Decaf Machiato</td>
+          <td>100ден/1.7€</td>
+        </tr>
+        <tr>
+          <td>Декаф Еспресо/Decaf Espresso</td>
+          <td>80ден/1.4€</td>
+        </tr>
+        <tr>
           <td>Нес Kафе/Nescafe</td>
           <td>90ден/1.5€</td>
         </tr>
