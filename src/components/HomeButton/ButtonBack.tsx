@@ -10,7 +10,7 @@ const ButtonBack: React.FC<ButtonProps> = ({ link, label }) => {
   return (
     <div className='wrapper'>
       <Link className='btn-back' to={link}>
-        <BsArrowLeftShort size={30} />
+        <BsArrowLeftShort size={25} />
       </Link>
       <span className='label'>{label}</span>
     </div>

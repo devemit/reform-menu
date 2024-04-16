@@ -3,7 +3,7 @@ interface TitleProps {
 }
 
 const DrinktsTitle: React.FC<TitleProps> = ({ label }) => {
-  return <h1>{label}</h1>;
+  return <h2>{label}</h2>;
 };
 
 export default DrinktsTitle;
