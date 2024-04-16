@@ -17,11 +17,11 @@ const Wines = () => {
 
         <tr>
           <td>Темјаника 0.187л/Temjanika</td>
-          <td>120ден/2€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Тга за југ 0.187л/Red Wine</td>
-          <td>120ден/2€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Александрија 0.750л/Alexandria</td>
@@ -29,19 +29,19 @@ const Wines = () => {
         </tr>
         <tr>
           <td>Александрија 0.187л/Alexandria</td>
-          <td>150ден/2.5€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Александрија куве 0.187л/Alexandria Couve</td>
-          <td>150ден/2.5€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Траминец 0.187л/Traminec</td>
-          <td>130ден/2.2€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Розе 0.750л</td>
-          <td>600ден/10€</td>
+          <td>700ден/12€</td>
         </tr>
       </table>
     </div>

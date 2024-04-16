@@ -23,6 +23,10 @@ const Waters = () => {
           <td>Газирана вода/Mineral Water</td>
           <td>60ден/1€</td>
         </tr>
+        <tr>
+          <td>Добра Вода/Dobra Voda</td>
+          <td>70ден/1.2€</td>
+        </tr>
       </table>
     </div>
   );
