@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(1fr);
   gap: 1rem;
-  padding: 4rem;
+  padding: 1rem;
 }
 @media (min-width: 600px) {
   .card_grid {
@@ -23,7 +23,7 @@
   text-decoration: none;
   border: 2px solid var(--gold);
   color: var(--gold);
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   display: flex;
   width: 100%;
   justify-content: center;

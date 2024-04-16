@@ -17,7 +17,7 @@ const Beers = () => {
 
         <tr>
           <td>Скопско/Skopsko</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.7€</td>
         </tr>
         <tr>
           <td>Амстел/Amstel</td>
@@ -29,7 +29,7 @@ const Beers = () => {
         </tr>
         <tr>
           <td>Скопско Смут/Smooth</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.7€</td>
         </tr>
         <tr>
           <td>Радлер/Radler</td>

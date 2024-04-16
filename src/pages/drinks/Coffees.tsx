@@ -18,10 +18,10 @@ const Coffees = () => {
           <td>Еспресо/Espresso</td>
           <td>70ден/1.2€</td>
         </tr>
-        <tr>
+        {/* <tr>
           <td>Еспресо Aрабика/Espresso Arabica</td>
           <td>80ден/1.4€</td>
-        </tr>
+  </tr> */}
         <tr>
           <td>Макијато/Machiato</td>
           <td>90ден/1.5€</td>

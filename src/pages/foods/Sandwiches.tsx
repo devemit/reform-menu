@@ -5,7 +5,13 @@ import '../../styles/Table.css';
 export default function Sandwiches() {
   return (
     <div className='table'>
-      <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
+      <div
+        style={{
+          display: 'flex',
+          padding: '1rem',
+          alignItems: 'center',
+        }}
+      >
         <ButtonBack link={'/foods'} />
         <DrinktsTitle label={'Сендвичи/Sandwiches'} />
       </div>
