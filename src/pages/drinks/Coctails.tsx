@@ -17,7 +17,7 @@ const Coctails = () => {
 
         <tr>
           <td>Мохито/Mojito</td>
-          <td>220ден/3.5€</td>
+          <td>220ден/3.8€</td>
         </tr>
         <tr>
           <td>Пина Колада/Pina Colada</td>
