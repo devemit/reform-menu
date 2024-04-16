@@ -13,15 +13,10 @@ const Coffees = () => {
           <th>Производ/Product</th>
           <th>Цена/Price</th>
         </tr>
-
         <tr>
           <td>Еспресо/Espresso</td>
           <td>70ден/1.2€</td>
         </tr>
-        {/* <tr>
-          <td>Еспресо Aрабика/Espresso Arabica</td>
-          <td>80ден/1.4€</td>
-  </tr> */}
         <tr>
           <td>Макијато/Machiato</td>
           <td>90ден/1.5€</td>
