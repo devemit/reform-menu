@@ -54,11 +54,11 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Узо/Ouzo</td>
-          <td>70ден/1.2€</td>
+          <td>90ден/1.5€</td>
         </tr>
         <tr>
           <td>Мастика/Mastika</td>
-          <td>80ден/1.4€</td>
+          <td>90ден/1.5€</td>
         </tr>
         <tr>
           <td>Арчерс/Archers</td>
@@ -70,7 +70,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Ракија/Rakija</td>
-          <td>70ден/1.2€</td>
+          <td>80ден/1.3€</td>
         </tr>
         <tr>
           <td>Коњак/Cognac</td>

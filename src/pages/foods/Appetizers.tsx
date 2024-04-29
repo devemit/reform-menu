@@ -38,7 +38,7 @@ export default function Appetizers() {
               </span>
             </td>
           </div>
-          <td>220ден/3.6€</td>
+          <td>250ден/4.1€</td>
         </tr>
       </table>
     </div>

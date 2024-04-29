@@ -85,7 +85,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>180ден/3€</td>
+          <td>200ден/3.3€</td>
         </tr>
       </table>
     </div>
