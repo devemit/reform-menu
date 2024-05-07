@@ -2,6 +2,7 @@ import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
+
 export default function Sandwiches() {
   return (
     <div className='table'>

@@ -52,6 +52,19 @@ export default function Toasts() {
           <td>100ден/1.7€</td>
         </tr>
         <tr>
+          <tr>
+            <div style={{ maxWidth: '190px', margin: 'auto' }}>
+              <td>
+                Печеница Кашкавал
+                <br />
+                <span style={{ fontSize: '.7rem' }}>
+                  печеница,кашкавал,додаток по избор,лебче
+                </span>
+              </td>
+            </div>
+            <td>90ден/1.5€</td>
+          </tr>
+
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               Помфрит Додаток
