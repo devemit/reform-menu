@@ -5,7 +5,13 @@ import '../../styles/Table.css';
 export default function Toasts() {
   return (
     <div className='table'>
-      <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
+      <div
+        style={{
+          display: 'flex',
+          padding: '1rem',
+          alignItems: 'center',
+        }}
+      >
         <ButtonBack link={'/foods'} />
         <DrinktsTitle label={'Тостови/Toasts'} />
       </div>
@@ -52,19 +58,18 @@ export default function Toasts() {
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <tr>
-            <div style={{ maxWidth: '190px', margin: 'auto' }}>
-              <td>
-                Печеница Кашкавал
-                <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  печеница,кашкавал,додаток по избор,лебче
-                </span>
-              </td>
-            </div>
-            <td>100ден/1.5€</td>
-          </tr>
-
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Печеница Кашкавал
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                печеница,кашкавал,додаток по избор,лебче
+              </span>
+            </td>
+          </div>
+          <td>100ден/1.5€</td>
+        </tr>
+        <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               Помфрит Додаток
