@@ -30,7 +30,7 @@ export default function Sandwiches() {
               <span style={{ fontSize: '.7rem' }}>
                 шунка,сланина,кашкавал,павлака,
                 <br />
-                пармезан,домат,помфрит,леб
+                пармезан,домат,помфрит,лепче
               </span>
             </td>
           </div>
@@ -44,7 +44,7 @@ export default function Sandwiches() {
               <span style={{ fontSize: '.7rem' }}>
                 пилешки стек,едамер,татар сос,марула,домати,
                 <br />
-                помфрит,корнишон лебче
+                помфрит,корнишон лепче
               </span>
             </td>
           </div>
@@ -58,7 +58,7 @@ export default function Sandwiches() {
               <span style={{ fontSize: '.7rem' }}>
                 печеница,едамер,павлака,салата,
                 <br />
-                марула,помфрит,лебче
+                марула,помфрит,лепче
               </span>
             </td>
           </div>
@@ -70,7 +70,7 @@ export default function Sandwiches() {
               Пеперони
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                кулен,кашкавал,марула, домат,помфрит,лебче
+                кулен,кашкавал,марула, домат,помфрит,лепче
               </span>
             </td>
           </div>

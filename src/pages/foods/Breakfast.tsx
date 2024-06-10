@@ -18,7 +18,7 @@ export default function Breakfast() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Реформ/Reform
+              Реформ појадок/Reform breakfast
               <br />
               <span style={{ fontSize: '.7rem' }}>
                 јајца,едамер,печурки,домат,пршута,
@@ -27,7 +27,7 @@ export default function Breakfast() {
               </span>
             </td>
           </div>
-          <td>130ден/2.2€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -40,7 +40,7 @@ export default function Breakfast() {
               </span>
             </td>
           </div>
-          <td>120ден/2€</td>
+          <td>170ден/3€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -48,13 +48,13 @@ export default function Breakfast() {
               Бруклин/Brooklyn
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                лебче,шунка,кашкавал,сланина,
+                лепче,шунка,кашкавал,сланина,
                 <br />
                 шампињони, домат,масло за јадење
               </span>
             </td>
           </div>
-          <td>150ден/2.5€</td>
+          <td>200ден/3.5€</td>
         </tr>
       </table>
     </div>

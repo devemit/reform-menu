@@ -27,7 +27,7 @@ export default function Toasts() {
               Шунка Кашкавал
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                шунка,кашкавал,додаток по избор,лебче
+                шунка,кашкавал,додаток по избор,лепче
               </span>
             </td>
           </div>
@@ -39,7 +39,7 @@ export default function Toasts() {
               Кулен Кашкавал
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                кулен,кашкавал,додаток по избор,лебче
+                кулен,кашкавал,додаток по избор,лепче
               </span>
             </td>
           </div>
@@ -51,7 +51,7 @@ export default function Toasts() {
               Врат Кашкавал
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                врат,кашкавал,додаток по избор,лебче
+                врат,кашкавал,додаток по избор,лепче
               </span>
             </td>
           </div>
@@ -63,7 +63,7 @@ export default function Toasts() {
               Печеница Кашкавал
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                печеница,кашкавал,додаток по избор,лебче
+                печеница,кашкавал,додаток по избор,лепче
               </span>
             </td>
           </div>
