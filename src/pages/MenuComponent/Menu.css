@@ -16,7 +16,6 @@
 .menu-card_image {
   width: 100%;
   max-height: 100%;
-  object-fit: cover;
   object-position: center;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
