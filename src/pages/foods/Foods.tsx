@@ -9,9 +9,12 @@ const Foods = () => {
         <ButtonBack link={'/'} />
       </div>
       <div className='card_grid'>
-        {foodcards.map((el) => (
-          <CardItem key={el.title} title={el.title} img={el.img} link={el.link} />
-        ))}
+        <p style={{ fontSize: '1.55rem', fontWeight: 'bold', color: '#b0852f' }}>
+          Kitchen seasonally closed.
+        </p>
+        {/* {foodcards.map((el) => ( */}
+        {/* <CardItem key={el.title} title={el.title} img={el.img} link={el.link} /> */}
+        {/* ))} */}
       </div>
     </>
   );

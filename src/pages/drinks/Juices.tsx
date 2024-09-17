@@ -38,7 +38,7 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Џус 0.250l/Juice</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.8€</td>
         </tr>
         <tr>
           <td>Леден чај 0.250l/Ice Tea</td>
