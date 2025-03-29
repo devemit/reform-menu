@@ -65,6 +65,10 @@ const Coffees = () => {
           <td>Лате Kафе/Latte Cafe</td>
           <td>130ден/2.2€</td>
         </tr>
+        <tr>
+          <td>Топло Чоколадо/Hot Chocolate</td>
+          <td>120ден/2€</td>
+        </tr>
       </table>
     </div>
   );
