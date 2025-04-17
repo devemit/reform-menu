@@ -39,7 +39,7 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Нес Kафе/Nescafe</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.9€</td>
         </tr>
         <tr>
           <td>Ирско Kафе/Irish Coffee</td>
@@ -55,7 +55,7 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Фредо Еспресо Сингл/Freddo Espresso Single</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.9€</td>
         </tr>
         <tr>
           <td>Фредо Капучино/Freddo Cappuccino</td>
