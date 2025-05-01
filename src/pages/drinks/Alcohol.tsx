@@ -161,10 +161,10 @@ const Alcohol = () => {
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <tr>
-            <td>Грејгус/Grey Goose</td>
-            <td>350ден/6€</td>
-          </tr>
+          <td>Грејгус/Grey Goose</td>
+          <td>350ден/6€</td>
+        </tr>
+        <tr>
           <td>Бомбај/Bombay</td>
           <td>150ден/2.5€</td>
         </tr>
