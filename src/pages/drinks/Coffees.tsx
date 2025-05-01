@@ -19,19 +19,19 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Макијато/Machiato</td>
-          <td>100ден/1.8€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Капучино/Cappuccino</td>
-          <td>100ден/1.8€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Декаф Капучино/Decaf Cappuccino</td>
-          <td>110ден/2€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <td>Декаф Макијато/Decaf Machiato</td>
-          <td>110ден/2€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <td>Декаф Еспресо/Decaf Espresso</td>
@@ -39,7 +39,7 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Нес Kафе/Nescafe</td>
-          <td>100ден/1.9€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Ирско Kафе/Irish Coffee</td>
@@ -47,7 +47,7 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Ајс Kафе/Ice Coffee</td>
-          <td>130ден/2.2€</td>
+          <td>150ден/2.5€</td>
         </tr>
         <tr>
           <td>Фредо Еспресо Дупло/Freddo Espresso Double</td>
@@ -55,15 +55,15 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>Фредо Еспресо Сингл/Freddo Espresso Single</td>
-          <td>100ден/1.9€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Фредо Капучино/Freddo Cappuccino</td>
-          <td>130ден/2.2€</td>
+          <td>130ден/2.3€</td>
         </tr>
         <tr>
           <td>Лате Kафе/Latte Cafe</td>
-          <td>130ден/2.2€</td>
+          <td>130ден/2.3€</td>
         </tr>
         <tr>
           <td>Топло Чоколадо/Hot Chocolate</td>

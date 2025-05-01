@@ -22,7 +22,7 @@ export default function Deserts() {
               <span style={{ fontSize: '.7rem' }}>крем банана</span>
             </td>
           </div>
-          <td>140ден/2.3€</td>
+          <td>140ден/2.4€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -32,7 +32,7 @@ export default function Deserts() {
               <span style={{ fontSize: '.7rem' }}>мед,ореви</span>
             </td>
           </div>
-          <td>140ден/2.3€</td>
+          <td>140ден/2.4€</td>
         </tr>
 
         <tr>

@@ -40,7 +40,7 @@ export default function Breakfast() {
               </span>
             </td>
           </div>
-          <td>170ден/3€</td>
+          <td>170ден/2.9€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>

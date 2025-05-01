@@ -17,7 +17,7 @@ const Beers = () => {
 
         <tr>
           <td>Скопско/Skopsko</td>
-          <td>110ден/1.85€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>Амстел/Amstel</td>
@@ -25,15 +25,15 @@ const Beers = () => {
         </tr>
         <tr>
           <td>Хајнекен/Heineken</td>
-          <td>140ден/2.5€</td>
+          <td>150ден/2.5€</td>
         </tr>
         <tr>
           <td>Скопско Смут/Smooth</td>
-          <td>110ден/1.85€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>Радлер/Radler</td>
-          <td>110ден/1.85€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <td>Точено мало/Pint small</td>
@@ -41,7 +41,7 @@ const Beers = () => {
         </tr>
         <tr>
           <td>Точено големо/Pint big</td>
-          <td>110ден/1.85€</td>
+          <td>110ден/1.9€</td>
         </tr>
       </table>
     </div>

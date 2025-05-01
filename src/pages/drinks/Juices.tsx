@@ -18,11 +18,11 @@ const Juices = (props: Props) => {
 
         <tr>
           <td>Кока Кола 0.250l/Coca Cola</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Фанта 0.250l/Fanta</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Швепс 0.250l/Schweppes</td>
@@ -30,7 +30,7 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Спрајт 0.250l/Sprite</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Тоник 0.250l/Tonic</td>
@@ -38,7 +38,7 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Џус 0.250l/Juice</td>
-          <td>110ден/1.8€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <td>Леден чај 0.250l/Ice Tea</td>
