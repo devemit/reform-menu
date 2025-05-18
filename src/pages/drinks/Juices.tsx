@@ -50,11 +50,11 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Цеден Портокал/Fresh Orange Juice</td>
-          <td>120ден/2€</td>
+          <td>150ден/2.5€</td>
         </tr>
         <tr>
           <td>Цеден Микс/Fresh Mix Juice</td>
-          <td>150ден/2.5€</td>
+          <td>180ден/3€</td>
         </tr>
         <tr>
           <td>Лимонада/Lemonade</td>
