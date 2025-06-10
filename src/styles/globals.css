@@ -5,7 +5,10 @@
   --blue: #1f346b;
 }
 * {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +19,6 @@ html,
 body {
   overflow-x: hidden;
   padding-top: 95px;
-  /*  fixed navbar problems*/
-  /*  removing white space on mobile from the right side */
 }
 
 ::-webkit-scrollbar {

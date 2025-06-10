@@ -10,7 +10,7 @@ const Menu = () => {
           <ImageComponent src={'/cocc.jpg'} />
         </div>
         <NavLink className='link' to='/drinks'>
-          <button className='btn_link'>DRINKS</button>
+          <button className='btn_link'>Пијалоци</button>
         </NavLink>
       </div>
       <div className='men'>
@@ -18,7 +18,7 @@ const Menu = () => {
           <ImageComponent src={'/hamm.jpg'} />
         </div>
         <NavLink className='link' to='/foods'>
-          <button className='btn_link'>FOODS</button>
+          <button className='btn_link'>Храна</button>
         </NavLink>
       </div>
     </div>

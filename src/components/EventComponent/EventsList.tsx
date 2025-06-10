@@ -2,16 +2,14 @@ const EventsList = () => {
   return (
     <div>
       <div className='event_two'>
-        <img src='figuretop.jpg' alt='figue' className='figure' />
+        <img src='dezero.jpg' alt='figue' className='figure' />
         <div className='content_two' data-aos='fade-left'>
-          <h2>Events</h2>
+          <h2>Настани</h2>
           <ul className='events'>
-            <li>Weddings</li>
-            <li>Birthdays</li>
-            <li>Christenings</li>
-            <li>Pre-Wedding Events</li>
-            <li>Bachelor Parties</li>
-            <li>Business Meetings</li>
+            <li>Родендени</li>
+            <li>Крштевања</li>
+            <li>Предсвадбени настани</li>
+            <li>Бизнис настани</li>
           </ul>
           <img src='wavever.png' alt='/' className='wavever' />
         </div>

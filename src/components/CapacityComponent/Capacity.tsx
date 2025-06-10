@@ -10,16 +10,16 @@ const Capacity = () => {
   }, []);
 
   const items = [
-    { imgUrl: 'water.png', desc: '500m', title: 'Beach' },
-    { imgUrl: 'parking.png', desc: '100', title: 'Parking Spots' },
-    { imgUrl: 'sunbeds.png', desc: '300', title: 'Sunbeds' },
-    { imgUrl: 'umbrellas.png', desc: '150', title: 'Umbrellas' },
+    { imgUrl: 'water.png', desc: '500m', title: 'Плажа' },
+    { imgUrl: 'parking.png', desc: '100', title: 'Паркинг места' },
+    { imgUrl: 'sunbeds.png', desc: '300', title: 'Лежалки' },
+    { imgUrl: 'umbrellas.png', desc: '150', title: 'Чадори' },
   ];
 
   return (
     <div id='capacity' className='capacity_container'>
       <div className='title_wrapper'>
-        <span className='title'>Reform Numbers</span>
+        <span className='title'>Реформ Бројки</span>
       </div>
       <div className='content_wrapper' data-aos='fade-up'>
         <div className='content'>
