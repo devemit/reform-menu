@@ -19,7 +19,7 @@ const Capacity = () => {
   return (
     <div id='capacity' className='capacity_container'>
       <div className='title_wrapper'>
-        <span className='title'>Реформ Бројки</span>
+        <span className='title'>Реформ Броjки</span>
       </div>
       <div className='content_wrapper' data-aos='fade-up'>
         <div className='content'>

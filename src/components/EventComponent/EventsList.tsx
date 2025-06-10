@@ -7,7 +7,7 @@ const EventsList = () => {
           <h2>Настани</h2>
           <ul className='events'>
             <li>Родендени</li>
-            <li>Крштевања</li>
+            <li>Крштенки</li>
             <li>Предсвадбени настани</li>
             <li>Бизнис настани</li>
           </ul>

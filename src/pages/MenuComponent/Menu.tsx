@@ -10,7 +10,7 @@ const Menu = () => {
           <ImageComponent src={'/cocc.jpg'} />
         </div>
         <NavLink className='link' to='/drinks'>
-          <button className='btn_link'>Пијалоци</button>
+          <button className='btn_link'>Пиjалоци</button>
         </NavLink>
       </div>
       <div className='men'>
