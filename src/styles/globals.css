@@ -5,7 +5,8 @@
   --blue: #1f346b;
 }
 * {
-  font-family: 'Macondo', cursive;
+  font-family: 'Edu NSW ACT Hand Pre', cursive;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: 0;
