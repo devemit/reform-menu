@@ -122,7 +122,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Џони вокер блек/Johnny Walker black</td>
-          <td>250ден/4.3€</td>
+          <td>300ден/5€</td>
         </tr>
         <tr>
           <td>Балантајс/Ballantine's</td>
@@ -130,7 +130,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Џек Даниелс/Jack Daniels</td>
-          <td>250ден/4.5€</td>
+          <td>300ден/5€</td>
         </tr>
         <tr>
           <td>Кати Сарк/Cutty Sark</td>
@@ -138,7 +138,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Чивас/Chivas</td>
-          <td>250ден/4.3€</td>
+          <td>300ден/5€</td>
         </tr>
         <tr>
           <td>Џејмисон/Jameson</td>
