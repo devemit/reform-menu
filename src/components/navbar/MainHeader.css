@@ -18,11 +18,13 @@
 }
 .main_title {
   font-size: 3rem;
+  font-family: 'Macondo', cursive;
   color: var(--gold);
   text-transform: uppercase;
   letter-spacing: 1rem;
 }
 .second_title {
+  font-family: 'Macondo', cursive;
   color: var(--gold);
   letter-spacing: 0.5rem;
 }
