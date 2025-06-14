@@ -31,7 +31,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -43,7 +43,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -55,7 +55,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -67,7 +67,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>100ден/1.5€</td>
+          <td>110ден/1.9€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
