@@ -77,7 +77,7 @@ export default function Toasts() {
               <span style={{ fontSize: '.7rem' }}></span>
             </td>
           </div>
-          <td>30ден/.5€</td>
+          <td>30ден/0.5€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
