@@ -62,7 +62,7 @@ export default function Sandwiches() {
               </span>
             </td>
           </div>
-          <td>130ден/2.3€</td>
+          <td>150ден/2.5€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -74,7 +74,7 @@ export default function Sandwiches() {
               </span>
             </td>
           </div>
-          <td>130ден/2.3€</td>
+          <td>150ден/2.5€</td>
         </tr>
       </table>
     </div>
