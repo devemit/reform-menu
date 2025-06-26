@@ -37,11 +37,11 @@ const Beers = () => {
         </tr>
         <tr>
           <td>Точено мало/Pint small</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.8€</td>
         </tr>
         <tr>
           <td>Точено големо/Pint big</td>
-          <td>110ден/1.9€</td>
+          <td>120ден/2€</td>
         </tr>
       </table>
     </div>
