@@ -15,7 +15,7 @@ export default function Appetizers() {
           <th>Цена/Price</th>
         </tr>
 
-        <tr>
+{/*         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               Реформ Топла Даска
@@ -27,7 +27,7 @@ export default function Appetizers() {
             </td>
           </div>
           <td>1000,500ден/16.5€,8.5€</td>
-        </tr>
+        </tr> */}
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
