@@ -10,11 +10,11 @@ const foodcards = [
     img: 'https://images.unsplash.com/photo-1516224430621-90032db0df67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80',
     link: '/foods/salads',
   },
-  {
-    title: 'Тестенини',
-    img: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
-    link: '/foods/pasta',
-  },
+  // {
+  //   title: 'Тестенини',
+  //   img: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+  //   link: '/foods/pasta',
+  // },
   {
     title: 'Сендвичи',
     img: 'https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80',
@@ -30,11 +30,11 @@ const foodcards = [
     img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80',
     link: '/foods/burgers',
   },
-  {
-    title: 'Рижота',
-    img: 'https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-    link: '/foods/rissoto',
-  },
+  // {
+  //   title: 'Рижота',
+  //   img: 'https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+  //   link: '/foods/rissoto',
+  // },
   {
     title: 'Предјадења',
     img: 'https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
