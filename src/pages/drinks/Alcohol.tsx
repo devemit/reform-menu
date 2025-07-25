@@ -94,7 +94,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Аперол/Aperol</td>
-          <td>200ден/3.4€</td>
+          <td>200ден/3.5€</td>
         </tr>
         <tr>
           <td>Кампари/Campari</td>
