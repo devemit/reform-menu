@@ -3,7 +3,7 @@ import '../components/navbar/MainHeader.css';
 import Capacity from '../components/CapacityComponent/Capacity';
 import Events from '../components/EventComponent/Events';
 import { useLanguage } from '../contexts/LanguageContext';
-import LanguageSwitcher from '../components/LanguageSwitcher/LanguageSwitcher';
+
 export default function Home() {
   const { t } = useLanguage();
 
@@ -12,9 +12,6 @@ export default function Home() {
       <Menu />
       <Capacity />
       <Events />
-      <div className='language-switcher-container'>
-        <LanguageSwitcher />
-      </div>
       <div
         style={{
           bottom: '2px',
