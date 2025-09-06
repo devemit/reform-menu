@@ -1,7 +1,6 @@
 .language-switcher {
   position: relative;
   display: inline-block;
-  margin-top: 3rem;
 }
 
 .language-button {
@@ -20,6 +19,8 @@
   backdrop-filter: blur(20px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(176, 133, 47, 0.1);
   transform: translateY(0);
+  position: relative;
+  z-index: 1001;
 }
 
 .language-button:hover {
