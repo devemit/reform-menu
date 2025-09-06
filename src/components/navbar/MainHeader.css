@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -21,6 +22,7 @@
 }
 
 .language-switcher-container {
+  margin-top: 1rem;
   position: relative;
   z-index: 1000;
 }
