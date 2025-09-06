@@ -1,6 +1,5 @@
 .navbar {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -22,9 +21,10 @@
 }
 
 .language-switcher-container {
-  margin-top: 1rem;
-  position: relative;
+  position: absolute;
   z-index: 1000;
+  right: 0;
+  padding: 10px;
 }
 .main_title {
   font-size: 3rem;
