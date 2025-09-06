@@ -1,72 +1,75 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 const Coffees = () => {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/drinks'} />
-        <DrinktsTitle label={'Кафе/Coffee'} />
+        <DrinktsTitle label={t('drink.coffee')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
         <tr>
-          <td>Еспресо/Espresso</td>
+          <td>{t('coffee.espresso')}</td>
           <td>80ден/1.5€</td>
         </tr>
         <tr>
-          <td>Макијато/Machiato</td>
+          <td>{t('coffee.macchiato')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Капучино/Cappuccino</td>
+          <td>{t('coffee.cappuccino')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Декаф Капучино/Decaf Cappuccino</td>
+          <td>{t('coffee.decaf_cappuccino')}</td>
           <td>110ден/1.9€</td>
         </tr>
         <tr>
-          <td>Декаф Макијато/Decaf Machiato</td>
+          <td>{t('coffee.decaf_macchiato')}</td>
           <td>110ден/1.9€</td>
         </tr>
         <tr>
-          <td>Декаф Еспресо/Decaf Espresso</td>
+          <td>{t('coffee.decaf_espresso')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Нес Kафе/Nescafe</td>
+          <td>{t('coffee.nescafe')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Ирско Kафе/Irish Coffee</td>
+          <td>{t('coffee.irish_coffee')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Ајс Kафе/Ice Coffee</td>
+          <td>{t('coffee.ice_coffee')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Фредо Еспресо Дупло/Freddo Espresso Double</td>
+          <td>{t('coffee.freddo_espresso_double')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Фредо Еспресо Сингл/Freddo Espresso Single</td>
+          <td>{t('coffee.freddo_espresso_single')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Фредо Капучино/Freddo Cappuccino</td>
+          <td>{t('coffee.freddo_cappuccino')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Лате Kафе/Latte Cafe</td>
+          <td>{t('coffee.latte')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Топло Чоколадо/Hot Chocolate</td>
+          <td>{t('coffee.hot_chocolate')}</td>
           <td>120ден/2€</td>
         </tr>
       </table>

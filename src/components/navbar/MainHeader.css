@@ -8,6 +8,7 @@
   z-index: 99;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0 20px;
 }
 
 .titles {
@@ -15,6 +16,13 @@
   flex-direction: column;
   text-align: center;
   z-index: 555;
+  flex: 1;
+  justify-content: center;
+}
+
+.language-switcher-container {
+  position: relative;
+  z-index: 1000;
 }
 .main_title {
   font-size: 3rem;

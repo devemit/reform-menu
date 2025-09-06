@@ -1,82 +1,85 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 
 const Coctails = () => {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/drinks'} />
-        <DrinktsTitle label={'Coctails/Коктели'} />
+        <DrinktsTitle label={t('drink.cocktails')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Products</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
-          <td>Мохито/Mojito</td>
+          <td>{t('cocktail.mojito')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Пина Колада/Pina Colada</td>
+          <td>{t('cocktail.pina_colada')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Строубери Колада/Strawberry Colada</td>
+          <td>{t('cocktail.strawberry_colada')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Космополитан/Cosmopolitan</td>
+          <td>{t('cocktail.cosmopolitan')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Маргарита/Margarita</td>
+          <td>{t('cocktail.margarita')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Строубери маргарита/Strawberry Margarita</td>
+          <td>{t('cocktail.strawberry_margarita')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Текила Санрајс/Tequila Sunrice</td>
+          <td>{t('cocktail.tequila_sunrise')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Сандкастл/Sandcastle</td>
+          <td>{t('cocktail.sandcastle')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Секс он д'бич/Sex On The Beach</td>
+          <td>{t('cocktail.sex_on_beach')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Блу Лагун/Blue Lagoon</td>
+          <td>{t('cocktail.blue_lagoon')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Фламинго/Flamingo</td>
+          <td>{t('cocktail.flamingo')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Блу Хаваи/Blue Hawai</td>
+          <td>{t('cocktail.blue_hawaii')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Куба Либре/Cuba Libre</td>
+          <td>{t('cocktail.cuba_libre')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>А.М.Ф/A.M.F</td>
+          <td>{t('cocktail.amf')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Аризона Твистер/Arizona Twister</td>
+          <td>{t('cocktail.arizona_twister')}</td>
           <td>250ден/4.1€</td>
         </tr>
         <tr>
-          <td>Лонг Ајланд/Long Island</td>
+          <td>{t('cocktail.long_island')}</td>
           <td>250ден/4.1€</td>
         </tr>
       </table>

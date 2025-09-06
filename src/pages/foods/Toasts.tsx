@@ -1,8 +1,11 @@
 import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 export default function Toasts() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div
@@ -13,21 +16,21 @@ export default function Toasts() {
         }}
       >
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Тостови/Toasts'} />
+        <DrinktsTitle label={t('food.toasts')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Шунка Кашкавал
+              {t('toast.ham_cheese')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                шунка, кашкавал, додаток по избор, лепче
+                {t('ingredients.toast_ham_cheese')}
               </span>
             </td>
           </div>
@@ -36,10 +39,10 @@ export default function Toasts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Кулен Кашкавал
+              {t('toast.kulen_cheese')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                кулен, кашкавал, додаток по избор, лепче
+                {t('ingredients.toast_kulen_cheese')}
               </span>
             </td>
           </div>
@@ -48,10 +51,10 @@ export default function Toasts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Врат Кашкавал
+              {t('toast.neck_cheese')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                врат, кашкавал, додаток по избор, лепче
+                {t('ingredients.toast_neck_cheese')}
               </span>
             </td>
           </div>
@@ -60,10 +63,10 @@ export default function Toasts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Печеница Кашкавал
+              {t('toast.roast_cheese')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                печеница, кашкавал, додаток по избор, лепче
+                {t('ingredients.toast_roast_cheese')}
               </span>
             </td>
           </div>
@@ -72,7 +75,7 @@ export default function Toasts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Помфрит Додаток
+              {t('toast.fries_extra')}
               <br />
               <span style={{ fontSize: '.7rem' }}></span>
             </td>
@@ -82,7 +85,7 @@ export default function Toasts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Порција Помфрит
+              {t('toast.fries_portion')}
               <br />
               <span style={{ fontSize: '.7rem' }}></span>
             </td>

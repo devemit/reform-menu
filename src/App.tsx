@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { LanguageProvider } from './contexts/LanguageContext';
 import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
@@ -23,7 +24,7 @@ import Appetizers from './pages/foods/Appetizers';
 import Home from './pages/Home';
 const App = () => {
   return (
-    <>
+    <LanguageProvider>
       <MainHeader />
       <Routes>
         {/* foods */}
@@ -50,7 +51,7 @@ const App = () => {
       </Routes>
       <ScrollToTop />
       <QR />
-    </>
+    </LanguageProvider>
   );
 };
 

@@ -1,27 +1,28 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 export default function Salads() {
+  const { t } = useLanguage();
+
   return (
     <>
       <div className='table'>
         <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
           <ButtonBack link={'/foods'} />
-          <DrinktsTitle label={'Салати/Salads'} />
+          <DrinktsTitle label={t('food.salads')} />
         </div>
         <table>
           <tr>
-            <th>Производ/Product</th>
-            <th>Цена/Price</th>
+            <th>{t('menu.product')}</th>
+            <th>{t('menu.price')}</th>
           </tr>
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
               <td>
-                Цезар 0.400кг
+                {t('food.caesar_salad')} 0.400кг
                 <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  марула, шери, пченка, пилешко, пармезан, дресинг,кубети, маслиново масло
-                </span>
+                <span style={{ fontSize: '.7rem' }}>{t('ingredients.caesar_salad')}</span>
               </td>
             </div>
             <td>220ден/3.7€</td>
@@ -29,12 +30,9 @@ export default function Salads() {
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
               <td>
-                Туна 0.425кг
+                {t('food.tuna_salad')} 0.425кг
                 <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  марула,туна, маслинки, домат, кромид, пченка, лимон, дресинг, маслиново
-                  масло
-                </span>
+                <span style={{ fontSize: '.7rem' }}>{t('ingredients.tuna_salad')}</span>
               </td>
             </div>
             <td>220ден/3.7€</td>
@@ -42,11 +40,9 @@ export default function Salads() {
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
               <td>
-                Грчка 0.285кг
+                {t('food.greek_salad')} 0.285кг
                 <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  домат,краставица, млад кормид, сирење, маслиново масло, оригано
-                </span>
+                <span style={{ fontSize: '.7rem' }}>{t('ingredients.greek_salad')}</span>
               </td>
             </div>
             <td>150ден/2.5€</td>
@@ -54,11 +50,9 @@ export default function Salads() {
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
               <td>
-                Шопска 0.345кг
+                {t('food.shop_salad')} 0.345кг
                 <br />
-                <span style={{ fontSize: '.7rem' }}>
-                  домат, краставица, млад кормид, сирење, маслиново масло
-                </span>
+                <span style={{ fontSize: '.7rem' }}>{t('ingredients.shop_salad')}</span>
               </td>
             </div>
             <td>150ден/2.5€</td>

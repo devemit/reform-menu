@@ -1,9 +1,12 @@
 import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 
 export default function Sandwiches() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div
@@ -14,23 +17,21 @@ export default function Sandwiches() {
         }}
       >
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Сендвичи/Sandwiches'} />
+        <DrinktsTitle label={t('food.sandwiches')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Реформ Клуб
+              {t('sandwich.reform_club')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                шунка, сланина, кашкавал, павлака,
-                <br />
-                пармезан, домат, помфрит, лепче
+                {t('ingredients.sandwich_reform_club')}
               </span>
             </td>
           </div>
@@ -39,12 +40,10 @@ export default function Sandwiches() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Реформ Ројал
+              {t('sandwich.reform_royal')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                пилешки стек, едамер, татар сос, марула, домати,
-                <br />
-                помфрит, корнишон лепче
+                {t('ingredients.sandwich_reform_royal')}
               </span>
             </td>
           </div>
@@ -53,12 +52,10 @@ export default function Sandwiches() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Њујорк
+              {t('sandwich.new_york')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                печеница, едамер, павлака, салата,
-                <br />
-                марула, помфрит, лепче
+                {t('ingredients.sandwich_new_york')}
               </span>
             </td>
           </div>
@@ -67,10 +64,10 @@ export default function Sandwiches() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Пеперони
+              {t('sandwich.pepperoni')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                кулен, кашкавал, марула, домат, помфрит, лепче
+                {t('ingredients.sandwich_pepperoni')}
               </span>
             </td>
           </div>

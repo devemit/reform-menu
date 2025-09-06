@@ -1,29 +1,30 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 
 export default function Breakfast() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Појадок/Breakfast'} />
+        <DrinktsTitle label={t('food.breakfast')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Реформ појадок/Reform breakfast
+              {t('food.reform_breakfast')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                јајца, едамер, печурки, домат, пршута,
-                <br />
-                масло за јадење, доматен сос
+                {t('ingredients.reform_breakfast')}
               </span>
             </td>
           </div>
@@ -32,11 +33,10 @@ export default function Breakfast() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Омлет/Omelet
+              {t('food.omelet')}
               <span style={{ fontSize: '.7rem' }}>
                 <br />
-                јајца, домат, краставичка, додаток по избор, шунка, кашкавал, печурки,
-                масло за јадење
+                {t('ingredients.omelet')}
               </span>
             </td>
           </div>
@@ -45,13 +45,9 @@ export default function Breakfast() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Бруклин/Brooklyn
+              {t('food.brooklyn')}
               <br />
-              <span style={{ fontSize: '.7rem' }}>
-                лепче, шунка, кашкавал, сланина,
-                <br />
-                шампињони, домат, масло за јадење
-              </span>
+              <span style={{ fontSize: '.7rem' }}>{t('ingredients.brooklyn')}</span>
             </td>
           </div>
           <td>200ден/3.5€</td>

@@ -1,21 +1,24 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 
 export default function Appetizers() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Предјадења/Appetizers'} />
+        <DrinktsTitle label={t('food.appetizers')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
-{/*         <tr>
+        {/*         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               Реформ Топла Даска
@@ -31,10 +34,10 @@ export default function Appetizers() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Пилешки прсти
+              {t('appetizer.chicken_fingers')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                пилешко брашно, јајце,презла, сусам,помфрит
+                {t('ingredients.chicken_fingers')}
               </span>
             </td>
           </div>

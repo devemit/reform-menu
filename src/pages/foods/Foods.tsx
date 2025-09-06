@@ -1,8 +1,10 @@
 import CardItem from '../drinks/CardItem';
-import foodcards from './foodcards';
+import { useFoodCards } from './foodcards';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 
 const Foods = () => {
+  const foodcards = useFoodCards();
+
   return (
     <>
       <div className='tester'>

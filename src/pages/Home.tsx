@@ -1,7 +1,10 @@
 import Menu from './MenuComponent/Menu';
 import Capacity from '../components/CapacityComponent/Capacity';
 import Events from '../components/EventComponent/Events';
+import { useLanguage } from '../contexts/LanguageContext';
 export default function Home() {
+  const { t } = useLanguage();
+
   return (
     <div>
       <Menu />
@@ -26,7 +29,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          © 2025 Mitko Devemit
+          {t('footer.copyright')}
         </a>
       </div>
     </div>

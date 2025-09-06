@@ -1,7 +1,10 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 const Alcohol = () => {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div
@@ -12,160 +15,160 @@ const Alcohol = () => {
         }}
       >
         <ButtonBack link={'/drinks'} />
-        <DrinktsTitle label={'Алкохол/Alcohol'} />
+        <DrinktsTitle label={t('drink.alcohol')} />
       </div>
       <table>
         <tr>
-          <th>Произовд/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
-          <td>Вигор/Vigor</td>
+          <td>{t('alcohol.vigor')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Смирноф/Smirnoff</td>
+          <td>{t('alcohol.smirnoff')}</td>
           <td>120ден/2€</td>
         </tr>
         <tr>
-          <td>Абсолут/Absolut</td>
+          <td>{t('alcohol.absolut')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Џин Сах/Gin Sax</td>
+          <td>{t('alcohol.gin_sax')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Гордонс/Gordons</td>
+          <td>{t('alcohol.gordons')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Бакарди/Bacardi</td>
+          <td>{t('alcohol.bacardi')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Мартини/Martini</td>
+          <td>{t('alcohol.martini')}</td>
           <td>120ден/2€</td>
         </tr>
         <tr>
-          <td>Текила/Tequila</td>
+          <td>{t('alcohol.tequila')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Узо/Ouzo</td>
+          <td>{t('alcohol.ouzo')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Мастика/Mastika</td>
+          <td>{t('alcohol.mastika')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Арчерс/Archers</td>
+          <td>{t('alcohol.archers')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Бејлис/Balleys</td>
+          <td>{t('alcohol.baileys')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Ракија/Rakija</td>
+          <td>{t('alcohol.rakija')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Коњак/Cognac</td>
+          <td>{t('alcohol.cognac')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Винјак/Vinjak</td>
+          <td>{t('alcohol.vinjak')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Шток/Stock</td>
+          <td>{t('alcohol.stock')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Рум/Rum</td>
+          <td>{t('alcohol.rum')}</td>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Кептан Морган/Captain Morgan</td>
+          <td>{t('alcohol.captain_morgan')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Аперол/Aperol</td>
+          <td>{t('alcohol.aperol')}</td>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Кампари/Campari</td>
+          <td>{t('alcohol.campari')}</td>
           <td>130ден/2.3€</td>
         </tr>
         <tr>
-          <td>Малибу/Malibu</td>
+          <td>{t('alcohol.malibu')}</td>
           <td>120ден/2€</td>
         </tr>
         <tr>
-          <td>Пелинковац/Pelinkovac</td>
+          <td>{t('alcohol.pelinkovac')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Јегермаестер/Jagermeister</td>
+          <td>{t('alcohol.jagermeister')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Шејкер/Shaker</td>
+          <td>{t('alcohol.shaker')}</td>
           <td>600ден/10€</td>
         </tr>
         <tr>
-          <td>Џони вокер/Johnny Walker</td>
+          <td>{t('alcohol.johnny_walker')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Џони вокер блек/Johnny Walker black</td>
+          <td>{t('alcohol.johnny_walker_black')}</td>
           <td>300ден/5€</td>
         </tr>
         <tr>
-          <td>Балантајс/Ballantine's</td>
+          <td>{t('alcohol.ballantines')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Џек Даниелс/Jack Daniels</td>
+          <td>{t('alcohol.jack_daniels')}</td>
           <td>300ден/5€</td>
         </tr>
         <tr>
-          <td>Кати Сарк/Cutty Sark</td>
+          <td>{t('alcohol.cutty_sark')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Чивас/Chivas</td>
+          <td>{t('alcohol.chivas')}</td>
           <td>300ден/5€</td>
         </tr>
         <tr>
-          <td>Џејмисон/Jameson</td>
+          <td>{t('alcohol.jameson')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>ЏБ/JB</td>
+          <td>{t('alcohol.jb')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Фејмос Грус/Famous Grouse</td>
+          <td>{t('alcohol.famous_grouse')}</td>
           <td>150ден/2.5€</td>
         </tr>
         <tr>
-          <td>Финландиа/Finlandia</td>
+          <td>{t('alcohol.finlandia')}</td>
           <td>130ден/2.2€</td>
         </tr>
         <tr>
-          <td>Скај Водка/Skyy Vodka</td>
+          <td>{t('alcohol.skyy_vodka')}</td>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Грејгус/Grey Goose</td>
+          <td>{t('alcohol.grey_goose')}</td>
           <td>350ден/6€</td>
         </tr>
         <tr>
-          <td>Бомбај/Bombay</td>
+          <td>{t('alcohol.bombay')}</td>
           <td>150ден/2.5€</td>
         </tr>
       </table>

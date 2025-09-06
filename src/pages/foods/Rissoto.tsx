@@ -1,28 +1,30 @@
 import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 export default function Rissoto() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Рижота/Rissoto'} />
+        <DrinktsTitle label={t('food.risotto')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Рижото со зеленчук
+              {t('risotto.vegetable_risotto')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                басамати ориз, мешан зеленчук, свежи шампињони, маслиново масло, сол,
-                бибер
+                {t('ingredients.risotto_vegetable')}
               </span>
             </td>
           </div>
@@ -31,11 +33,9 @@ export default function Rissoto() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Реформ Рижото
+              {t('risotto.reform_risotto')}
               <br />
-              <span style={{ fontSize: '.7rem' }}>
-                басамати ориз, пилешко, пармезан, свежи печурки, кинеска мешавина
-              </span>
+              <span style={{ fontSize: '.7rem' }}>{t('ingredients.risotto_reform')}</span>
             </td>
           </div>
           <td>280ден/4.8€</td>
@@ -43,11 +43,10 @@ export default function Rissoto() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Пилешко Рижото
+              {t('risotto.chicken_risotto')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                ориз, пилешко месо, зеленчук, шери, свеж босилек, печурки, маслиново
-                масло, пармезан
+                {t('ingredients.risotto_chicken')}
               </span>
             </td>
           </div>

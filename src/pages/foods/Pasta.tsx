@@ -1,28 +1,30 @@
 import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
+import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
 export default function Pasta() {
+  const { t } = useLanguage();
+
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/foods'} />
-        <DrinktsTitle label={'Тестенини/Паста'} />
+        <DrinktsTitle label={t('food.pasta')} />
       </div>
       <table>
         <tr>
-          <th>Производ/Product</th>
-          <th>Цена/Price</th>
+          <th>{t('menu.product')}</th>
+          <th>{t('menu.price')}</th>
         </tr>
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Болоњезе 0.400кг
+              {t('pasta.bolognese')} 0.400кг
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                болоњезе сос, пармезан, шери, свеж босилек, тестенини по избор, маслиново
-                масло
+                {t('ingredients.pasta_bolognese')}
               </span>
             </td>
           </div>
@@ -31,11 +33,10 @@ export default function Pasta() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Карбонаре 0.360кг
+              {t('pasta.carbonara')} 0.360кг
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                панцета, јајца, пармезан, бел сос, магданос, свеж босилек, шери, тестенини
-                по избор
+                {t('ingredients.pasta_carbonara')}
               </span>
             </td>
           </div>
@@ -44,12 +45,10 @@ export default function Pasta() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              4 Вида Сирење
+              {t('pasta.four_cheeses')}
               <br />
               <span style={{ fontSize: '.7rem' }}>
-                моцарела, горгонзота, пармезан,
-                <br />
-                адамер, шери, магданос, маслиново масло, тестенини по избор
+                {t('ingredients.pasta_four_cheeses')}
               </span>
             </td>
           </div>
