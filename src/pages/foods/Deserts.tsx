@@ -17,7 +17,7 @@ export default function Deserts() {
           <th>{t('menu.price')}</th>
         </tr>
 
-        {/* <tr>
+         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('dessert.pancake_cream_banana')}
@@ -27,9 +27,9 @@ export default function Deserts() {
               </span>
             </td>
           </div>
-          <td>140ден/2.4€</td>
-        </tr> */}
-        {/* <tr>
+          <td>150ден/2.5€</td>
+        </tr> 
+        <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('dessert.pancake_honey_nuts')}
@@ -39,8 +39,8 @@ export default function Deserts() {
               </span>
             </td>
           </div>
-          <td>140ден/2.4€</td>
-        </tr> */}
+          <td>150ден/2.5€</td>
+        </tr> 
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
