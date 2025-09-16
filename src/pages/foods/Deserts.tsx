@@ -29,18 +29,7 @@ export default function Deserts() {
           </div>
           <td>150ден/2.5€</td>
         </tr> 
-        <tr>
-          <div style={{ maxWidth: '190px', margin: 'auto' }}>
-            <td>
-              {t('dessert.pancake_honey_nuts')}
-              <br />
-              <span style={{ fontSize: '.7rem' }}>
-                {t('ingredients.pancake_honey_nuts')}
-              </span>
-            </td>
-          </div>
-          <td>150ден/2.5€</td>
-        </tr> 
+        
 
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
