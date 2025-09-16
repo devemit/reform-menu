@@ -887,11 +887,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Pancake Cream Banana',
         el: 'Κρέπα κρέμα μπανάνα',
       },
-      'dessert.pancake_honey_nuts': {
-        mk: 'Палачинка Мед Ореви',
-        en: 'Pancake Honey Nuts',
-        el: 'Κρέπα μέλι καρύδια',
-      },
       'dessert.ice_cream_ball': {
         mk: 'Сладолед Топка',
         en: 'Ice Cream Ball',
@@ -1040,11 +1035,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         mk: 'крем банана',
         en: 'banana cream',
         el: 'κρέμα μπανάνα',
-      },
-      'ingredients.pancake_honey_nuts': {
-        mk: 'мед, ореви',
-        en: 'honey, nuts',
-        el: 'μέλι, καρύδια',
       },
       'ingredients.ice_cream_ball': {
         mk: 'Сладолед',
