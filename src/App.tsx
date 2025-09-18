@@ -3,6 +3,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import MainHeader from './components/navbar/MainHeader';
 import ScrollToTop from './utils/scrollToTop';
 import QR from './components/QR';
+import PromoTooltip from './components/PromoTooltip';
 import Foods from './pages/foods/Foods';
 import Drinks from './pages/drinks/Drinks';
 import Coffees from './pages/drinks/Coffees';
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <LanguageProvider>
       <MainHeader />
+      <PromoTooltip showDelayMs={0} />
       <Routes>
         {/* foods */}
         <Route path='/' element={<Home />} />
