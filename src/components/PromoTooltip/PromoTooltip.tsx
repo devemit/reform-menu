@@ -9,9 +9,9 @@ interface PromoTooltipProps {
 }
 
 const PromoTooltip: React.FC<PromoTooltipProps> = ({
-  imageSrc = '/palacinka.jpg',
-  priceLabel = '150 ден / 2.5€',
-  productLabel = 'Палачинка',
+  imageSrc = '/150den.png',
+  // priceLabel = '150 ден / 2.5€',
+  // productLabel = 'Палачинка',
   showDelayMs = 600,
 }) => {
   const [visible, setVisible] = useState(false);
@@ -40,10 +40,6 @@ const PromoTooltip: React.FC<PromoTooltipProps> = ({
             className='promo-tooltip-image'
             loading='lazy'
           />
-        </div>
-        <div className='promo-tooltip-info'>
-          <span className='promo-tooltip-title'>{productLabel}</span>
-          <span className='promo-tooltip-price'>{priceLabel}</span>
         </div>
       </div>
     </div>
