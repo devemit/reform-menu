@@ -12,8 +12,6 @@ const PromoTooltip: React.FC<PromoTooltipProps> = ({
 }) => {
   const [visible, setVisible] = useState(false);
 
-  if (!visible) return null;
-
   const handleClose = () => {
     setVisible(false);
   };
@@ -22,6 +20,8 @@ const PromoTooltip: React.FC<PromoTooltipProps> = ({
     const timer = setTimeout(() => setVisible(true), showDelayMs);
     return () => clearTimeout(timer);
   }, [showDelayMs]);
+
+  if (!visible) return null;
 
   return (
     <div className='promo-tooltip-container'>
