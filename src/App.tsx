@@ -23,6 +23,7 @@ import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
 import Home from './pages/Home';
+
 const App = () => {
   return (
     <LanguageProvider>
