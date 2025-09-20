@@ -10,8 +10,8 @@ interface PromoTooltipProps {
 
 const PromoTooltip: React.FC<PromoTooltipProps> = ({
   imageSrc = '/150den.png',
-  // priceLabel = '150 ден / 2.5€',
-  // productLabel = 'Палачинка',
+  priceLabel = '150 ден / 2.5€',
+  productLabel = 'Палачинка',
   showDelayMs = 600,
 }) => {
   const [visible, setVisible] = useState(false);
