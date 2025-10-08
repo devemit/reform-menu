@@ -44,6 +44,10 @@ const Coffees = () => {
           <td>{t('coffee.nescafe')}</td>
           <td>100ден/1.7€</td>
         </tr>
+          <tr>
+          <td>{t('coffee.tea')}</td>
+          <td>70ден/1.2€</td>
+        </tr>
         <tr>
           <td>{t('coffee.irish_coffee')}</td>
           <td>150ден/2.5€</td>
