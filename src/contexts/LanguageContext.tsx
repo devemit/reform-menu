@@ -466,6 +466,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Nescafe',
         el: 'Νεσκαφέ',
       },
+       'coffee.tea': {
+        mk: 'Чај',
+        en: 'Tea',
+        el: 'τσάι',
+      },
       'coffee.irish_coffee': {
         mk: 'Ирско Кафе',
         en: 'Irish Coffee',
