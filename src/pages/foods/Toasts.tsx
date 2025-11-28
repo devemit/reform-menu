@@ -36,7 +36,7 @@ export default function Toasts() {
           </div>
           <td>100ден/1.7€</td>
         </tr>
-        <tr>
+        {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('toast.kulen_cheese')}
@@ -47,7 +47,7 @@ export default function Toasts() {
             </td>
           </div>
           <td>120ден/2€</td>
-        </tr>
+        </tr> */}
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
@@ -60,7 +60,7 @@ export default function Toasts() {
           </div>
           <td>120ден/2€</td>
         </tr>
-        <tr>
+        {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('toast.roast_cheese')}
@@ -71,7 +71,7 @@ export default function Toasts() {
             </td>
           </div>
           <td>120ден/2€</td>
-        </tr>
+        </tr> */}
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
@@ -82,7 +82,7 @@ export default function Toasts() {
           </div>
           <td>30ден/0.5€</td>
         </tr>
-        <tr>
+        {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('toast.fries_portion')}
@@ -91,7 +91,7 @@ export default function Toasts() {
             </td>
           </div>
           <td>120ден/2€</td>
-        </tr>
+        </tr> */}
       </table>
     </div>
   );
