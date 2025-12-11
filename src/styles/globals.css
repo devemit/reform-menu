@@ -19,6 +19,7 @@ html,
 body {
   overflow-x: hidden;
   padding-top: 95px;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {

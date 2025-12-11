@@ -23,12 +23,14 @@ import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
 import Home from './pages/Home';
+import Snowfall from 'react-snowfall'
 
 const App = () => {
   return (
     <LanguageProvider>
+      <Snowfall color='white' />
       <MainHeader />
-      <PromoTooltip showDelayMs={0} />
+      {/*<PromoTooltip showDelayMs={0} />*/}
       <Routes>
         {/* foods */}
         <Route path='/' element={<Home />} />
