@@ -29,6 +29,10 @@ const Coffees = () => {
           <td>100ден/1.7€</td>
         </tr>
         <tr>
+          <td>{t('coffee.cacao')}</td>
+          <td>80ден/1.5€</td>
+        </tr>
+        <tr>
           <td>{t('coffee.decaf_cappuccino')}</td>
           <td>110ден/1.9€</td>
         </tr>
@@ -44,7 +48,7 @@ const Coffees = () => {
           <td>{t('coffee.nescafe')}</td>
           <td>100ден/1.7€</td>
         </tr>
-          <tr>
+        <tr>
           <td>{t('coffee.tea')}</td>
           <td>70ден/1.2€</td>
         </tr>
