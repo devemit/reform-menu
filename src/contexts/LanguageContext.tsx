@@ -191,6 +191,26 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: '© 2025 Mitko Devemit',
         el: '© 2025 Mitko Devemit',
       },
+      'footer.hours': {
+        mk: 'Дневно',
+        en: 'Daily',
+        el: 'Καθημερινά',
+      },
+      'footer.hours_time': {
+        mk: '09:00 - 00:00',
+        en: '09:00 - 00:00',
+        el: '09:00 - 00:00',
+      },
+      'footer.share': {
+        mk: 'Сподели',
+        en: 'Share',
+        el: 'Κοινή χρήση',
+      },
+      'footer.shared': {
+        mk: 'Копирано!',
+        en: 'Link copied!',
+        el: 'Αντιγράφηκε!',
+      },
 
       // Events section
       'events.title': {
