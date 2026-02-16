@@ -24,7 +24,7 @@ const Waters = () => {
         </tr>
         <tr>
           <td>{t('water.mineral_water')}</td>
-          <td>60ден/1€</td>
+          <td>70ден/1.2€</td>
         </tr>
         <tr>
           <td>{t('water.dobra_voda')}</td>

@@ -20,11 +20,11 @@ const Wines = () => {
 
         <tr>
           <td>{t('wine.temjanika')} 0.187л</td>
-          <td>180ден/3€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>{t('wine.red_wine')} 0.187л</td>
-          <td>180ден/3€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>{t('wine.alexandria')} 0.750л</td>
@@ -32,15 +32,15 @@ const Wines = () => {
         </tr>
         <tr>
           <td>{t('wine.alexandria')} 0.187л</td>
-          <td>180ден/3€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>{t('wine.alexandria_couve')} 0.187л</td>
-          <td>180ден/3€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>{t('wine.traminec')} 0.187л</td>
-          <td>180ден/3€</td>
+          <td>220ден/3.7€</td>
         </tr>
         <tr>
           <td>{t('wine.rose')} 0.750л</td>
