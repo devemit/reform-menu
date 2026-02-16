@@ -19,7 +19,7 @@ html,
 body {
   overflow-x: hidden;
   padding-top: 95px;
-  background-color: white;
+  background-color: #faf8f5;
 }
 
 ::-webkit-scrollbar {

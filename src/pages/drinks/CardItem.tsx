@@ -10,14 +10,19 @@ interface CardItemProps {
 const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
   return (
     <div>
-      <img
-        loading='lazy'
-        src={img}
-        alt='/'
-        style={{ width: '100% ', height: '300px', objectFit: 'cover' }}
-      />
-      <br />
-
+      <div style={{ aspectRatio: '4/3', overflow: 'hidden' }}>
+        <img
+          loading='lazy'
+          src={img}
+          alt={title}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            display: 'block',
+          }}
+        />
+      </div>
       <Link className='drinks-nav_btn' to={link}>
         {title}
       </Link>
