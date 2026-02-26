@@ -7,7 +7,7 @@ interface PromoTooltipProps {
 }
 
 const PromoTooltip: React.FC<PromoTooltipProps> = ({
-  imageSrc = '/150den.png',
+  imageSrc = '/promo.jpg',
   showDelayMs = 600,
 }) => {
   const [visible, setVisible] = useState(false);
