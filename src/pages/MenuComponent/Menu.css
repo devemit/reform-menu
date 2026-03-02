@@ -22,13 +22,33 @@
 .blur-image {
   overflow: hidden;
 }
+.image-wrapper {
+  position: relative;
+  aspect-ratio: 5/4;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.image-lazy-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
 .menu-card_image {
   width: 100%;
-  height: auto;
-  min-height: 200px;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .container {
@@ -65,10 +85,6 @@
 }
 
 @media (min-width: 750px) {
-  .menu-card_image {
-    min-height: 240px;
-  }
-
   .btn_link {
     font-size: 2rem;
   }
