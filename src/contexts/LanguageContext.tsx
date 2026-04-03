@@ -466,7 +466,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Cappuccino',
         el: 'Καπουτσίνο',
       },
-		'coffee.cacao': {
+      'coffee.cacao': {
         mk: 'Какао',
         en: 'Cacao',
         el: 'Κακάο',
@@ -491,7 +491,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Nescafe',
         el: 'Νεσκαφέ',
       },
-       'coffee.tea': {
+      'coffee.tea': {
         mk: 'Чај',
         en: 'Tea',
         el: 'τσάι',
@@ -828,9 +828,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Ντόμπρα Βόντα',
       },
       'water.rosa_1l': {
-        mk: 'Rosa 1л',
-        en: 'Rosa 1l',
-        el: 'Ρόζα 1λ',
+        mk: 'Rosa 0.7л',
+        en: 'Rosa 0.7l',
+        el: 'Ρόζα 0.7λ',
       },
 
       // Pasta products
