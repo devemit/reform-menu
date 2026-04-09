@@ -1,0 +1,59 @@
+.allergen-legend {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1.25rem;
+  padding: 1rem 0.875rem 0.25rem;
+  border: 1px solid rgba(176, 133, 47, 0.28);
+  border-radius: 10px;
+  background: rgba(251, 249, 246, 0.95);
+  box-sizing: border-box;
+}
+
+.allergen-legend__title {
+  margin: 0 0 0.5rem;
+  font-size: clamp(0.85rem, 2.2vw, 1rem);
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+
+.allergen-legend__disclaimer {
+  margin: 0 0 0.75rem;
+  font-size: clamp(0.72rem, 2vw, 0.85rem);
+  line-height: 1.45;
+  color: #3d4456;
+}
+
+.allergen-legend__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.allergen-legend__item {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 0.85rem;
+  font-size: clamp(0.72rem, 2vw, 0.88rem);
+  line-height: 1.4;
+  color: #1a1f36;
+  border-bottom: 1px solid rgba(176, 133, 47, 0.1);
+}
+
+.allergen-legend__item:last-child {
+  border-bottom: none;
+  padding-bottom: 0.15rem;
+}
+
+.allergen-legend__item::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .allergen-legend {
+    padding: 1.1rem 1rem 0.35rem;
+  }
+}

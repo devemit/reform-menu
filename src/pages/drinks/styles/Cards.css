@@ -1,3 +1,9 @@
+.card-grid__allergens {
+  padding: 0 1rem 1.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .card_grid {
   display: grid;
   grid-template-columns: 1fr;

@@ -450,6 +450,88 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Τιμή',
       },
 
+      // Allergens (EU Annex II)
+      'allergen.title': {
+        mk: 'Алергени (ЕУ)',
+        en: 'Allergens (EU)',
+        el: 'Αλλεργιογόνα (ΕΕ)',
+      },
+      'allergen.disclaimer': {
+        mk: 'Соопштете му на персоналот за алергии и нетолеранции.',
+        en: 'Please inform staff about allergies and intolerances.',
+        el: 'Ενημερώστε το προσωπικό για αλλεργίες και δυσανεξίες.',
+      },
+      'allergen.gluten': {
+        mk: 'Житарици што содржат глутен',
+        en: 'Cereals containing gluten',
+        el: 'Δημητριακά που περιέχουν γλουτένη',
+      },
+      'allergen.crustaceans': {
+        mk: 'Ракчиња',
+        en: 'Crustaceans',
+        el: 'Καρκινοειδή',
+      },
+      'allergen.eggs': {
+        mk: 'Јајца',
+        en: 'Eggs',
+        el: 'Αυγά',
+      },
+      'allergen.fish': {
+        mk: 'Риба',
+        en: 'Fish',
+        el: 'Ψάρι',
+      },
+      'allergen.peanuts': {
+        mk: 'Кикирики',
+        en: 'Peanuts',
+        el: 'Αράπικα φιστίκια',
+      },
+      'allergen.soy': {
+        mk: 'Соја',
+        en: 'Soybeans',
+        el: 'Σόγια',
+      },
+      'allergen.milk': {
+        mk: 'Млеко',
+        en: 'Milk',
+        el: 'Γάλα',
+      },
+      'allergen.nuts': {
+        mk: 'Јаткасти плодови',
+        en: 'Tree nuts',
+        el: 'Ξηροί καρποί',
+      },
+      'allergen.celery': {
+        mk: 'Целер',
+        en: 'Celery',
+        el: 'Σέλινο',
+      },
+      'allergen.mustard': {
+        mk: 'Сенф',
+        en: 'Mustard',
+        el: 'Μουστάρδα',
+      },
+      'allergen.sesame': {
+        mk: 'Сусам',
+        en: 'Sesame',
+        el: 'Σουσάμι',
+      },
+      'allergen.sulphites': {
+        mk: 'Сулфитен диоксид и сулфити',
+        en: 'Sulphur dioxide and sulphites',
+        el: 'Διοξείδιο του θείου και θειώδη',
+      },
+      'allergen.lupin': {
+        mk: 'Лупина',
+        en: 'Lupin',
+        el: 'Λούπινο',
+      },
+      'allergen.molluscs': {
+        mk: 'Мекотели',
+        en: 'Molluscs',
+        el: 'Μαλάκια',
+      },
+
       // Coffee products
       'coffee.espresso': {
         mk: 'Еспресо',

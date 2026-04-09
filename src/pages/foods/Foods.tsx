@@ -1,6 +1,7 @@
 import CardItem from '../drinks/CardItem';
 import { useFoodCards } from './foodcards';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
+import AllergenLegend from '../../components/AllergenLegend';
 
 const Foods = () => {
   const foodcards = useFoodCards();
@@ -17,6 +18,9 @@ const Foods = () => {
         {foodcards.map((el) => (
           <CardItem key={el.title} title={el.title} img={el.img} link={el.link} />
         ))}
+      </div>
+      <div className="card-grid__allergens">
+        <AllergenLegend />
       </div>
     </>
   );

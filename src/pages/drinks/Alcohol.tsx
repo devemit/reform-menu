@@ -2,6 +2,7 @@ import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
+
 const Alcohol = () => {
   const { t } = useLanguage();
 
