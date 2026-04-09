@@ -25,7 +25,7 @@ export default function Sandwiches() {
           <th>{t('menu.price')}</th>
         </tr>
 
-        <tr>
+        {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('sandwich.reform_club')}
@@ -36,7 +36,7 @@ export default function Sandwiches() {
             </td>
           </div>
           <td>220ден/3.7€</td>
-        </tr>
+        </tr> */}
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>

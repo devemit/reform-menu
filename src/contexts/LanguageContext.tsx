@@ -780,6 +780,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Juice',
         el: 'Χυμός',
       },
+      'juice.orange': {
+        mk: 'Џус портокал',
+        en: 'Orange Juice',
+        el: 'Χυμός πορτοκαλιού',
+      },
       'juice.ice_tea': {
         mk: 'Леден чај',
         en: 'Ice Tea',

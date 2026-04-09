@@ -3,6 +3,7 @@ import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
 import '../../styles/Table.css';
+
 export default function Toasts() {
   const { t } = useLanguage();
 
@@ -36,7 +37,7 @@ export default function Toasts() {
           </div>
           <td>100ден/1.7€</td>
         </tr>
-        {/* <tr>
+        <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
               {t('toast.kulen_cheese')}
@@ -47,7 +48,7 @@ export default function Toasts() {
             </td>
           </div>
           <td>120ден/2€</td>
-        </tr> */}
+        </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>

@@ -18,15 +18,15 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>{t('coffee.espresso')}</td>
-          <td>80ден/1.5€</td>
+          <td>90ден/1.5€</td>
         </tr>
         <tr>
           <td>{t('coffee.macchiato')}</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.7€</td>
         </tr>
         <tr>
           <td>{t('coffee.cappuccino')}</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.8€</td>
         </tr>
         <tr>
           <td>{t('coffee.cacao')}</td>
@@ -34,19 +34,19 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>{t('coffee.decaf_cappuccino')}</td>
-          <td>110ден/1.9€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>{t('coffee.decaf_macchiato')}</td>
-          <td>110ден/1.9€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>{t('coffee.decaf_espresso')}</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>{t('coffee.nescafe')}</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.8€</td>
         </tr>
         <tr>
           <td>{t('coffee.tea')}</td>
@@ -54,27 +54,27 @@ const Coffees = () => {
         </tr>
         <tr>
           <td>{t('coffee.irish_coffee')}</td>
-          <td>150ден/2.5€</td>
+          <td>170ден/3€</td>
         </tr>
         <tr>
           <td>{t('coffee.ice_coffee')}</td>
-          <td>150ден/2.5€</td>
+          <td>160ден/2.7€</td>
         </tr>
         <tr>
           <td>{t('coffee.freddo_espresso_double')}</td>
-          <td>150ден/2.5€</td>
+          <td>160ден/2.7€</td>
         </tr>
         <tr>
           <td>{t('coffee.freddo_espresso_single')}</td>
-          <td>100ден/1.7€</td>
+          <td>110ден/1.8€</td>
         </tr>
         <tr>
           <td>{t('coffee.freddo_cappuccino')}</td>
-          <td>130ден/2.3€</td>
+          <td>140ден/2.5€</td>
         </tr>
         <tr>
           <td>{t('coffee.latte')}</td>
-          <td>130ден/2.3€</td>
+          <td>140ден/2.5€</td>
         </tr>
         <tr>
           <td>{t('coffee.hot_chocolate')}</td>
