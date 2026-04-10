@@ -46,7 +46,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.greek_salad')}</span>
               </td>
             </div>
-            <td>150ден/2.5€</td>
+            <td>200ден/3.5€</td>
           </tr>
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -56,7 +56,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.shop_salad')}</span>
               </td>
             </div>
-            <td>150ден/2.5€</td>
+            <td>200ден/3.5€</td>
           </tr>
         </table>
       </div>
