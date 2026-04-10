@@ -115,7 +115,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Burgers',
         el: 'Μπέργκερ',
       },
-      'food.rissoto': {
+      'food.risotto': {
         mk: 'Рижота',
         en: 'Risotto',
         el: 'Ριζότο',

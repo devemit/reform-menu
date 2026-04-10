@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["./src/**/*.tsx", "public/QR.tsx"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./src/**/*.d.ts"],
   "exclude": ["node_modules", "src/**/*.spec.ts"],
 
   "references": [{ "path": "./tsconfig.node.json" }]
