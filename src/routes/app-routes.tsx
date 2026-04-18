@@ -2,9 +2,9 @@ import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import './app-routes.css';
+import Home from '../pages/home';
 
 const Foods = lazy(() => import('../pages/menu/foods/foods'));
-const Home = lazy(() => import('../pages/Home'));
 const Breakfast = lazy(() => import('../pages/menu/foods/breakfast'));
 const Appetizers = lazy(() => import('../pages/menu/foods/appetizers'));
 const Pasta = lazy(() => import('../pages/menu/foods/pasta'));
