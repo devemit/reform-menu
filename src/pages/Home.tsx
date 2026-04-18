@@ -42,9 +42,13 @@ export default function Home() {
       <Events />
       <footer className='home_footer'>
         <div className='home_footer_hours'>
-          <BsClock size={18} />
-          <span>{t('footer.hours')}:</span>
-          <span className='home_footer_time'>{t('footer.hours_time')}</span>
+          <div className='home_footer_hours_block'>
+            <div className='home_footer_hours_heading'>
+              <BsClock size={18} aria-hidden />
+              <span className='home_footer_hours_label'>{t('footer.hours')}</span>
+            </div>
+            <span className='home_footer_time'>{t('footer.hours_schedule')}</span>
+          </div>
         </div>
         <button
           type='button'
@@ -60,9 +64,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
           className='home_footer_copyright'
-        >
-          {t('footer.copyright')}
-        </a>
+        ></a>
       </footer>
     </div>
   );

@@ -1,11 +1,13 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 
 import '../../styles/Table.css';
 
 export default function Salads() {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <>
@@ -27,7 +29,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.caesar_salad')}</span>
               </td>
             </div>
-            <td>220ден/3.7€</td>
+            <td>{menuPrice(220, 3.7)}</td>
           </tr>
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -37,7 +39,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.tuna_salad')}</span>
               </td>
             </div>
-            <td>220ден/3.7€</td>
+            <td>{menuPrice(220, 3.7)}</td>
           </tr>
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -47,7 +49,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.greek_salad')}</span>
               </td>
             </div>
-            <td>200ден/3.5€</td>
+            <td>{menuPrice(200, 3.5)}</td>
           </tr>
           <tr>
             <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -57,7 +59,7 @@ export default function Salads() {
                 <span style={{ fontSize: '.7rem' }}>{t('ingredients.shop_salad')}</span>
               </td>
             </div>
-            <td>200ден/3.5€</td>
+            <td>{menuPrice(200, 3.5)}</td>
           </tr>
         </table>
       </div>

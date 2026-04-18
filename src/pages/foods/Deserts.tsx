@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 export default function Deserts() {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -28,7 +30,7 @@ export default function Deserts() {
               </span>
             </td>
           </div>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr> 
         
 
@@ -40,7 +42,7 @@ export default function Deserts() {
               <span style={{ fontSize: '.7rem' }}>{t('ingredients.ice_cream_ball')}</span>
             </td>
           </div>
-          <td>50ден/.90€</td>
+          <td>{menuPrice(50, 0.9)}</td>
         </tr>
       </table>
     </div>

@@ -22,14 +22,11 @@ import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
 import Home from './pages/Home';
-import Flowerfall from './components/Flowerfall';
 
 const App = () => {
   return (
     <LanguageProvider>
-      <Flowerfall />
       <MainHeader />
-      {/* <PromoTooltip showDelayMs={0} /> */}
       <Routes>
         {/* foods */}
         <Route path='/' element={<Home />} />

@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 export default function Appetizers() {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -41,7 +43,7 @@ export default function Appetizers() {
               </span>
             </td>
           </div>
-          <td>250ден/4.1€</td>
+          <td>{menuPrice(250, 4.1)}</td>
         </tr>
       </table>
     </div>

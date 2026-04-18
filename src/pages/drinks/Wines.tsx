@@ -2,9 +2,11 @@ import '../../styles/Table.css';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 
 const Wines = () => {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -20,31 +22,31 @@ const Wines = () => {
 
         <tr>
           <td>{t('wine.temjanika')} 0.187л</td>
-          <td>220ден/3.7€</td>
+          <td>{menuPrice(220, 3.7)}</td>
         </tr>
         <tr>
           <td>{t('wine.red_wine')} 0.187л</td>
-          <td>220ден/3.7€</td>
+          <td>{menuPrice(220, 3.7)}</td>
         </tr>
         <tr>
           <td>{t('wine.alexandria')} 0.750л</td>
-          <td>700ден/12€</td>
+          <td>{menuPrice(700, 12)}</td>
         </tr>
         <tr>
           <td>{t('wine.alexandria')} 0.187л</td>
-          <td>220ден/3.7€</td>
+          <td>{menuPrice(220, 3.7)}</td>
         </tr>
         <tr>
           <td>{t('wine.alexandria_couve')} 0.187л</td>
-          <td>220ден/3.7€</td>
+          <td>{menuPrice(220, 3.7)}</td>
         </tr>
         <tr>
           <td>{t('wine.traminec')} 0.187л</td>
-          <td>220ден/3.7€</td>
+          <td>{menuPrice(220, 3.7)}</td>
         </tr>
         <tr>
           <td>{t('wine.rose')} 0.750л</td>
-          <td>700ден/12€</td>
+          <td>{menuPrice(700, 12)}</td>
         </tr>
       </table>
     </div>

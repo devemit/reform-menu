@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 const Beers = () => {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -20,31 +22,31 @@ const Beers = () => {
 
         <tr>
           <td>{t('beer.skopsko')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('beer.amstel')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('beer.heineken')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('beer.skopsko_smooth')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('beer.radler')}</td>
-          <td>110ден/1.9€</td>
+          <td>{menuPrice(110, 1.8)}</td>
         </tr>
         <tr>
           <td>{t('beer.pint_small')}</td>
-          <td>100ден/1.8€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('beer.pint_big')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
       </table>
     </div>

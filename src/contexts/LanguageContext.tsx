@@ -192,14 +192,14 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: '© 2025 Mitko Devemit',
       },
       'footer.hours': {
-        mk: 'Дневно',
-        en: 'Daily',
-        el: 'Καθημερινά',
+        mk: 'Работно време',
+        en: 'Opening hours',
+        el: 'Ώρες λειτουργίας',
       },
-      'footer.hours_time': {
-        mk: '09:00 - 00:00',
-        en: '09:00 - 00:00',
-        el: '09:00 - 00:00',
+      'footer.hours_schedule': {
+        mk: 'Пон–чет: 09:00 - 00:00\nПет–нед: 09:00 - 01:00',
+        en: 'Mon–Thu: 09:00 - 00:00\nFri–Sun: 09:00 - 01:00',
+        el: 'Δευ–Πεμ: 09:00 - 00:00\nΠαρ–Κυρ: 09:00 - 01:00',
       },
       'footer.share': {
         mk: 'Сподели',

@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 const Burgers = () => {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -26,7 +28,7 @@ const Burgers = () => {
               <span style={{ fontSize: '.7rem' }}>{t('ingredients.hamburger')}</span>
             </td>
           </div>
-          <td>180ден/3€</td>
+          <td>{menuPrice(180, 3)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -38,7 +40,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>200ден/3.5€</td>
+          <td>{menuPrice(200, 3.5)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -50,7 +52,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>200ден/3.5€</td>
+          <td>{menuPrice(200, 3.5)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -62,7 +64,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>200ден/3.5€</td>
+          <td>{menuPrice(200, 3.5)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -72,7 +74,7 @@ const Burgers = () => {
               <span style={{ fontSize: '.7rem' }}>{t('ingredients.chicken_burger')}</span>
             </td>
           </div>
-          <td>200ден/3.5€</td>
+          <td>{menuPrice(200, 3.5)}</td>
         </tr>
       </table>
     </div>

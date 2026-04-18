@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 const Alcohol = () => {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -26,151 +28,151 @@ const Alcohol = () => {
 
         <tr>
           <td>{t('alcohol.vigor')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.smirnoff')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.absolut')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.gin_sax')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.gordons')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.bacardi')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.martini')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.tequila')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.ouzo')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.mastika')}</td>
-          <td>90ден/1.5€</td>
+          <td>{menuPrice(90, 1.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.archers')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.baileys')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.rakija')}</td>
-          <td>90ден/1.5€</td>
+          <td>{menuPrice(90, 1.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.cognac')}</td>
-          <td>90ден/1.5€</td>
+          <td>{menuPrice(90, 1.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.vinjak')}</td>
-          <td>90ден/1.5€</td>
+          <td>{menuPrice(90, 1.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.stock')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.rum')}</td>
-          <td>90ден/1.5€</td>
+          <td>{menuPrice(90, 1.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.captain_morgan')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.aperol')}</td>
-          <td>200ден/3.5€</td>
+          <td>{menuPrice(200, 3.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.campari')}</td>
-          <td>130ден/2.3€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.malibu')}</td>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.pelinkovac')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.jagermeister')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.shaker')}</td>
-          <td>600ден/10€</td>
+          <td>{menuPrice(600, 10)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.johnny_walker')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.johnny_walker_black')}</td>
-          <td>300ден/5€</td>
+          <td>{menuPrice(300, 5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.ballantines')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.jack_daniels')}</td>
-          <td>300ден/5€</td>
+          <td>{menuPrice(300, 5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.cutty_sark')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.chivas')}</td>
-          <td>300ден/5€</td>
+          <td>{menuPrice(300, 5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.jameson')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.jb')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.famous_grouse')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.finlandia')}</td>
-          <td>130ден/2.2€</td>
+          <td>{menuPrice(130, 2.2)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.skyy_vodka')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.grey_goose')}</td>
-          <td>350ден/6€</td>
+          <td>{menuPrice(350, 6)}</td>
         </tr>
         <tr>
           <td>{t('alcohol.bombay')}</td>
-          <td>150ден/2.5€</td>
+          <td>{menuPrice(150, 2.5)}</td>
         </tr>
       </table>
     </div>

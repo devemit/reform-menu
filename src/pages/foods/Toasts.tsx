@@ -2,10 +2,12 @@ import React from 'react';
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 export default function Toasts() {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -35,7 +37,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -47,7 +49,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -59,7 +61,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr>
         {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -71,7 +73,7 @@ export default function Toasts() {
               </span>
             </td>
           </div>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr> */}
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -81,7 +83,7 @@ export default function Toasts() {
               <span style={{ fontSize: '.7rem' }}></span>
             </td>
           </div>
-          <td>30ден/0.5€</td>
+          <td>{menuPrice(30, 0.5)}</td>
         </tr>
         {/* <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -91,7 +93,7 @@ export default function Toasts() {
               <span style={{ fontSize: '.7rem' }}></span>
             </td>
           </div>
-          <td>120ден/2€</td>
+          <td>{menuPrice(120, 2)}</td>
         </tr> */}
       </table>
     </div>

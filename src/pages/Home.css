@@ -9,17 +9,35 @@
 }
 
 .home_footer_hours {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
   color: var(--gold);
   font-weight: 600;
   font-size: 1rem;
+  max-width: 22rem;
+}
+
+.home_footer_hours_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.home_footer_hours_heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.home_footer_hours_label {
+  font-weight: 600;
 }
 
 .home_footer_time {
   font-weight: 700;
   letter-spacing: 0.05em;
+  white-space: pre-line;
+  line-height: 1.45;
+  text-align: center;
 }
 
 .home_footer_share {

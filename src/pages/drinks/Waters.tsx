@@ -1,10 +1,12 @@
 import ButtonBack from '../../components/HomeButton/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useMenuPrice } from '../../hooks/useMenuPrice';
 import '../../styles/Table.css';
 
 const Waters = () => {
   const { t } = useLanguage();
+  const { menuPrice } = useMenuPrice();
 
   return (
     <div className='table'>
@@ -20,19 +22,19 @@ const Waters = () => {
 
         <tr>
           <td>{t('water.rosa')}</td>
-          <td>60ден/1€</td>
+          <td>{menuPrice(60, 1)}</td>
         </tr>
         <tr>
           <td>{t('water.mineral_water')}</td>
-          <td>70ден/1.2€</td>
+          <td>{menuPrice(70, 1.2)}</td>
         </tr>
         <tr>
           <td>{t('water.dobra_voda')}</td>
-          <td>70ден/1.2€</td>
+          <td>{menuPrice(70, 1.2)}</td>
         </tr>
         <tr>
           <td>{t('water.rosa_1l')}</td>
-          <td>100ден/1.7€</td>
+          <td>{menuPrice(100, 1.7)}</td>
         </tr>
       </table>
     </div>
