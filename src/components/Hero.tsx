@@ -1,6 +1,6 @@
-import Menu from '../pages/MenuComponent/Menu';
-import Capacity from './CapacityComponent/Capacity';
-import Events from './EventComponent/Events';
+import Capacity from './capacity-component/capacity';
+import Events from './event-component/events';
+import Menu from './home/Menu';
 
 export default function Hero() {
   return (

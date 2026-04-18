@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0 20px;
+  height: 12rem;
+  transition: height 0.3s ease;
+}
+
+html.nav-is-scrolled .navbar {
+  height: 6rem;
+}
+
+.navbar__home-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 555;
+  flex: 1;
+  justify-content: center;
+}
+
+.language-switcher-container {
+  position: fixed;
+  z-index: 1000;
+  top: calc(12rem + 20px);
+  right: 20px;
+  padding: 0;
+  transition: top 0.3s ease;
+}
+
+html.nav-is-scrolled .language-switcher-container {
+  top: calc(6rem + 20px);
+}
+.main_title {
+  font-size: 3rem;
+  font-family: 'Macondo', cursive;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.second_title {
+  font-family: 'Macondo', cursive;
+  color: var(--gold);
+  letter-spacing: 0.5rem;
+}

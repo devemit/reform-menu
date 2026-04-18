@@ -1,0 +1,15 @@
+.circle-link-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.circle-link-button__link {
+  color: var(--gold);
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--gold);
+  border-radius: 50px;
+}

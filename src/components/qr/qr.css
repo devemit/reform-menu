@@ -1,0 +1,20 @@
+.qr-section {
+  display: none;
+  padding: 2rem;
+}
+
+.qr-section__code {
+  padding: 0.5rem;
+}
+
+.qr-section__title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 1rem;
+  background: whitesmoke;
+  width: 500px;
+  height: 90px;
+}

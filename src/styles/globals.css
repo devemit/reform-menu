@@ -29,6 +29,12 @@ body {
 ::-webkit-scrollbar-thumb {
   background: grey;
 }
-.tester {
+.menu-hub-toolbar {
   padding: 1rem;
+}
+
+.menu-grid-seasonal-notice {
+  font-size: 1.55rem;
+  font-weight: bold;
+  color: var(--gold);
 }

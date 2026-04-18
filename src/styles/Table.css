@@ -1,3 +1,19 @@
+.menu-page-toolbar {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.menu-page-product-cell {
+  max-width: 190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-page-ingredients {
+  font-size: 0.7rem;
+}
+
 .table {
   width: 100%;
   height: 100%;
@@ -41,16 +57,20 @@ td {
   font-weight: 500;
 }
 
-tr:nth-child(even) td {
+tbody tr:nth-child(even) td {
   background-color: #fff;
 }
 
-tr:nth-child(odd) td {
+tbody tr:nth-child(odd) td {
   background-color: #fbf9f6;
 }
 
-tr:not(:last-child) td {
+tbody tr:not(:last-child) td {
   border-bottom: 1px solid rgba(176, 133, 47, 0.12);
+}
+
+thead tr th {
+  border-bottom: 1px solid rgba(176, 133, 47, 0.2);
 }
 
 @media (min-width: 600px) {

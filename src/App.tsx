@@ -1,8 +1,8 @@
-import { LanguageProvider } from './contexts/LanguageContext';
-import MainHeader from './components/navbar/MainHeader';
-import ScrollToTop from './utils/scrollToTop';
-import QR from './components/QR';
-import { AppRoutes } from './routes/AppRoutes';
+import { LanguageProvider } from './contexts/language-context';
+import MainHeader from './components/navbar/main-header';
+import ScrollToTop from './utils/scroll-to-top';
+import QR from './components/qr/qr';
+import { AppRoutes } from './routes/app-routes';
 
 const App = () => {
   return (
