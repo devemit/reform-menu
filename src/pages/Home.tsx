@@ -4,7 +4,7 @@ import Capacity from '../components/capacity-component/capacity';
 import Events from '../components/event-component/events';
 import { useLanguage } from '../contexts/language-context';
 import '../components/navbar/main-header.css';
-import './home.css';
+import './Home.css';
 import Menu from '../components/home/menu';
 
 const MENU_URL = 'https://reformbeachbar.vercel.app';
