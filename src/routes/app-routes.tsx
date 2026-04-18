@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './app-routes.css';
 
 const Foods = lazy(() => import('../pages/menu/foods/foods'));
-const Home = lazy(() => import('../pages/Home'));
+const Home = lazy(() => import('../pages/home'));
 const Breakfast = lazy(() => import('../pages/menu/foods/breakfast'));
 const Appetizers = lazy(() => import('../pages/menu/foods/appetizers'));
 const Pasta = lazy(() => import('../pages/menu/foods/pasta'));

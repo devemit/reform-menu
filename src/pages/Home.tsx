@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { BsClock, BsShare } from 'react-icons/bs';
 import Capacity from '../components/capacity-component/capacity';
 import Events from '../components/event-component/events';
-import Menu from '../components/home/Menu';
 import { useLanguage } from '../contexts/language-context';
 import '../components/navbar/main-header.css';
 import './home.css';
+import Menu from '../components/home/menu';
 
 const MENU_URL = 'https://reformbeachbar.vercel.app';
 
