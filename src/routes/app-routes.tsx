@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
+
 import './app-routes.css';
 
 const Foods = lazy(() => import('../pages/menu/foods/foods'));
