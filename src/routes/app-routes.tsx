@@ -2,8 +2,8 @@ import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import './app-routes.css';
-import Home from '../pages/home';
 
+const Home = lazy(() => import('../pages/home'));
 const Foods = lazy(() => import('../pages/menu/foods/foods'));
 const Breakfast = lazy(() => import('../pages/menu/foods/breakfast'));
 const Appetizers = lazy(() => import('../pages/menu/foods/appetizers'));
