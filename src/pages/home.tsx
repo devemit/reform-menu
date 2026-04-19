@@ -59,12 +59,6 @@ export default function Home() {
           <BsShare size={18} />
           {shareFeedback ? t('footer.shared') : t('footer.share')}
         </button>
-        <a
-          href='https://mitkodev.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='home_footer_copyright'
-        ></a>
       </footer>
     </div>
   );
