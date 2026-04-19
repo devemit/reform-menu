@@ -31,7 +31,7 @@
 
 .card_grid > div {
   background: #fff;
-  border-radius: 16px;
+  border-radius: var(--menu-card-border-radius, 16px);
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(176, 133, 47, 0.15);
   border: 1px solid rgba(176, 133, 47, 0.2);

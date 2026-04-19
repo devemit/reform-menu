@@ -3,6 +3,8 @@
   --black: #000;
   --gold: #b0852f;
   --blue: #1f346b;
+  /* Foods / drinks category cards (.card_grid); language switcher matches */
+  --menu-card-border-radius: 16px;
 }
 * {
   font-family: 'Roboto', sans-serif;
