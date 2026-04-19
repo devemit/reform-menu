@@ -184,6 +184,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Greek',
         el: 'Ελληνικά',
       },
+      'language.menu_aria_prefix': {
+        mk: 'Мени за јазик — ',
+        en: 'Language menu — ',
+        el: 'Μενού γλώσσας — ',
+      },
 
       // Footer
       'footer.copyright': {

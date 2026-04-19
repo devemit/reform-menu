@@ -30,8 +30,15 @@
   transform: translateY(-2px);
 }
 
-.flag {
-  font-size: 16px;
+.language-switcher .language-switcher-flag {
+  flex-shrink: 0;
+  width: 22px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: block;
 }
 
 .language-name {
@@ -101,10 +108,6 @@
   color: #b0852f;
   font-weight: 600;
   border-left: 3px solid #b0852f;
-}
-
-.language-option .flag {
-  font-size: 16px;
 }
 
 /* Floating animation */
