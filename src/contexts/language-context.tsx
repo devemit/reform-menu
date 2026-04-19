@@ -1070,8 +1070,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
       },
       'ingredients.reform_cheeseburger': {
         mk: 'говедска плескавица, зденка, едамер, марула, помфрит, лепче',
-        en: 'beef patty, bacon, edam cheese, lettuce, fries, bread',
-        el: 'κεφτεδάκι βοδινού, μπέικον, τυρί εντάμ, μαρούλι, πατάτες, ψωμί',
+        en: 'beef patty, processed cheese spread, Edam cheese, lettuce, fries, bread',
+        el: 'μοσχαρίσιο μπιφτέκι, αλειφώδες τυρί, τυρί ένταμ, μαρούλι, πατάτες τηγανητές, ψωμί',
       },
       'ingredients.manhattan_burger': {
         mk: 'говедска плескавица, сланина, кашкавал, марула, домат, кромид, помфрит, лепче',
