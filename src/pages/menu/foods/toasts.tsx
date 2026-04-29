@@ -12,7 +12,9 @@ export default function Toasts() {
         <td className='menu-page-product-cell'>
           {t('toast.ham_cheese')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.toast_ham_cheese')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.toast_ham_cheese')}
+          </span>
         </td>
         <td>{menuPrice(100, 1.7)}</td>
       </tr>
@@ -20,7 +22,9 @@ export default function Toasts() {
         <td className='menu-page-product-cell'>
           {t('toast.kulen_cheese')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.toast_kulen_cheese')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.toast_kulen_cheese')}
+          </span>
         </td>
         <td>{menuPrice(120, 2)}</td>
       </tr>
@@ -28,18 +32,22 @@ export default function Toasts() {
         <td className='menu-page-product-cell'>
           {t('toast.neck_cheese')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.toast_neck_cheese')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.toast_neck_cheese')}
+          </span>
         </td>
         <td>{menuPrice(120, 2)}</td>
       </tr>
-      {/* <tr>
+      <tr>
         <td className='menu-page-product-cell'>
           {t('toast.roast_cheese')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.toast_roast_cheese')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.toast_roast_cheese')}
+          </span>
         </td>
         <td>{menuPrice(120, 2)}</td>
-      </tr> */}
+      </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('toast.fries_extra')}
@@ -48,14 +56,14 @@ export default function Toasts() {
         </td>
         <td>{menuPrice(30, 0.5)}</td>
       </tr>
-      {/* <tr>
+      <tr>
         <td className='menu-page-product-cell'>
           {t('toast.fries_portion')}
           <br />
           <span className='menu-page-ingredients'></span>
         </td>
         <td>{menuPrice(120, 2)}</td>
-      </tr> */}
+      </tr>
     </MenuCategoryPage>
   );
 }
