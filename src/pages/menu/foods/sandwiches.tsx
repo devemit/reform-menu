@@ -8,14 +8,14 @@ export default function Sandwiches() {
 
   return (
     <MenuCategoryPage backLink='/foods' titleKey='food.sandwiches'>
-      {/* <tr>
+       <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.reform_club')}
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.sandwich_reform_club')}</span>
         </td>
         <td>{menuPrice(220, 3.7)}</td>
-      </tr> */}
+      </tr> 
       <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.reform_royal')}
