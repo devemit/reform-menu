@@ -1044,12 +1044,12 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'μαρούλι, τόνος, ελιές, ντομάτα, κρεμμύδι, καλαμπόκι, λεμόνι, σάλτσα, ελαιόλαδο',
       },
       'ingredients.greek_salad': {
-        mk: 'домат,краставица, млад кормид, сирење, маслиново масло, оригано',
+        mk: 'домат,краставица, кромид, сирење, маслиново масло, оригано',
         en: 'tomato, cucumber, young onion, cheese, olive oil, oregano',
         el: 'ντομάτα, αγγούρι, νεαρό κρεμμύδι, τυρί, ελαιόλαδο, ρίγανη',
       },
       'ingredients.shop_salad': {
-        mk: 'домат, краставица, млад кормид, сирење, маслиново масло',
+        mk: 'домат, краставица, кромид, сирење, маслиново масло',
         en: 'tomato, cucumber, young onion, cheese, olive oil',
         el: 'ντομάτα, αγγούρι, νεαρό κρεμμύδι, τυρί, ελαιόλαδο',
       },
