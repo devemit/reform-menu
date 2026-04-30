@@ -12,7 +12,9 @@ export default function Pasta() {
         <td className='menu-page-product-cell'>
           {t('pasta.bolognese')} 0.400кг
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.pasta_bolognese')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.pasta_bolognese')}
+          </span>
         </td>
         <td>{menuPrice(250, 4.1)}</td>
       </tr>
@@ -20,7 +22,9 @@ export default function Pasta() {
         <td className='menu-page-product-cell'>
           {t('pasta.carbonara')} 0.360кг
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.pasta_carbonara')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.pasta_carbonara')}
+          </span>
         </td>
         <td>{menuPrice(250, 4.1)}</td>
       </tr>
@@ -28,9 +32,11 @@ export default function Pasta() {
         <td className='menu-page-product-cell'>
           {t('pasta.four_cheeses')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.pasta_four_cheeses')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.pasta_four_cheeses')}
+          </span>
         </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{menuPrice(230, 3.9)}</td>
       </tr>
     </MenuCategoryPage>
   );

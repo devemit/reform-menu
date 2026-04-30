@@ -12,7 +12,9 @@ export default function Desserts() {
         <td className='menu-page-product-cell'>
           {t('dessert.pancake_cream_banana')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.pancake_cream_banana')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.pancake_cream_banana')}
+          </span>
         </td>
         <td>{menuPrice(150, 2.5)}</td>
       </tr>
@@ -22,7 +24,7 @@ export default function Desserts() {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.ice_cream_ball')}</span>
         </td>
-        <td>{menuPrice(50, 0.9)}</td>
+        <td>{menuPrice(60, 1)}</td>
       </tr>
     </MenuCategoryPage>
   );

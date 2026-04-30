@@ -8,37 +8,45 @@ export default function Sandwiches() {
 
   return (
     <MenuCategoryPage backLink='/foods' titleKey='food.sandwiches'>
-       <tr>
+      <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.reform_club')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.sandwich_reform_club')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.sandwich_reform_club')}
+          </span>
         </td>
-        <td>{menuPrice(220, 3.7)}</td>
-      </tr> 
+        <td>{menuPrice(250, 4.1)}</td>
+      </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.reform_royal')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.sandwich_reform_royal')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.sandwich_reform_royal')}
+          </span>
         </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.new_york')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.sandwich_new_york')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.sandwich_new_york')}
+          </span>
         </td>
-        <td>{menuPrice(150, 2.5)}</td>
+        <td>{menuPrice(170, 2.9)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('sandwich.pepperoni')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.sandwich_pepperoni')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.sandwich_pepperoni')}
+          </span>
         </td>
-        <td>{menuPrice(150, 2.5)}</td>
+        <td>{menuPrice(170, 2.9)}</td>
       </tr>
     </MenuCategoryPage>
   );

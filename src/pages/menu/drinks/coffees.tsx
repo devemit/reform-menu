@@ -46,7 +46,7 @@ const Coffees = () => {
       </tr>
       <tr>
         <td>{t('coffee.irish_coffee')}</td>
-        <td>{menuPrice(170, 3)}</td>
+        <td>{menuPrice(170, 2.9)}</td>
       </tr>
       <tr>
         <td>{t('coffee.ice_coffee')}</td>

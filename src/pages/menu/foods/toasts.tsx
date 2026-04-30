@@ -16,7 +16,7 @@ export default function Toasts() {
             {t('ingredients.toast_ham_cheese')}
           </span>
         </td>
-        <td>{menuPrice(100, 1.7)}</td>
+        <td>{menuPrice(110, 1.8)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -26,7 +26,7 @@ export default function Toasts() {
             {t('ingredients.toast_kulen_cheese')}
           </span>
         </td>
-        <td>{menuPrice(120, 2)}</td>
+        <td>{menuPrice(130, 2.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -36,7 +36,7 @@ export default function Toasts() {
             {t('ingredients.toast_neck_cheese')}
           </span>
         </td>
-        <td>{menuPrice(120, 2)}</td>
+        <td>{menuPrice(130, 2.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -46,7 +46,7 @@ export default function Toasts() {
             {t('ingredients.toast_roast_cheese')}
           </span>
         </td>
-        <td>{menuPrice(120, 2)}</td>
+        <td>{menuPrice(130, 2.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>

@@ -14,7 +14,7 @@ export default function Salads() {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.caesar_salad')}</span>
         </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -22,7 +22,7 @@ export default function Salads() {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.tuna_salad')}</span>
         </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>

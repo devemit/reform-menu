@@ -14,31 +14,37 @@ const Burgers = () => {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.hamburger')}</span>
         </td>
-        <td>{menuPrice(180, 3)}</td>
+        <td>{menuPrice(200, 3.5)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('food.reform_cheeseburger')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.reform_cheeseburger')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.reform_cheeseburger')}
+          </span>
         </td>
-        <td>{menuPrice(200, 3.5)}</td>
+        <td>{menuPrice(220, 3.7)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('food.manhattan_burger')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.manhattan_burger')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.manhattan_burger')}
+          </span>
         </td>
-        <td>{menuPrice(200, 3.5)}</td>
+        <td>{menuPrice(230, 3.9)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
           {t('food.american_classic')}
           <br />
-          <span className='menu-page-ingredients'>{t('ingredients.american_classic')}</span>
+          <span className='menu-page-ingredients'>
+            {t('ingredients.american_classic')}
+          </span>
         </td>
-        <td>{menuPrice(200, 3.5)}</td>
+        <td>{menuPrice(220, 3.7)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -46,7 +52,7 @@ const Burgers = () => {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.chicken_burger')}</span>
         </td>
-        <td>{menuPrice(200, 3.5)}</td>
+        <td>{menuPrice(220, 3.7)}</td>
       </tr>
     </MenuCategoryPage>
   );
