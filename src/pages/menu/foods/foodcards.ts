@@ -4,11 +4,11 @@ export const useFoodCards = () => {
   const { t } = useLanguage();
 
   return [
-    //  {
-    //    title: t('food.breakfast'),
-    //    img: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-    //    link: '/foods/breakfast',
-    //  },
+      {
+       title: t('food.breakfast'),
+      img: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      link: '/foods/breakfast',
+      },
     {
       title: t('food.salads'),
       img: 'https://images.unsplash.com/photo-1516224430621-90032db0df67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80',
