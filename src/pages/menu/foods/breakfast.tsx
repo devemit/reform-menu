@@ -10,21 +10,13 @@ export default function Breakfast() {
     <MenuCategoryPage backLink='/foods' titleKey='food.breakfast'>
       <tr>
         <td className='menu-page-product-cell'>
-          {t('food.reform_breakfast')}
-          <br />
-          <span className='menu-page-ingredients'>{t('ingredients.reform_breakfast')}</span>
-        </td>
-        <td>{menuPrice(180, 3)}</td>
-      </tr>
-      <tr>
-        <td className='menu-page-product-cell'>
           {t('food.omelet')}
           <span className='menu-page-ingredients'>
             <br />
             {t('ingredients.omelet')}
           </span>
         </td>
-        <td>{menuPrice(170, 2.9)}</td>
+        <td>{menuPrice(200, 3.5)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -32,7 +24,7 @@ export default function Breakfast() {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.brooklyn')}</span>
         </td>
-        <td>{menuPrice(200, 3.5)}</td>
+        <td>{menuPrice(230, 3.9)}</td>
       </tr>
     </MenuCategoryPage>
   );
