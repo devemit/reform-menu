@@ -663,7 +663,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Τεμγιάνικα',
       },
       'wine.red_wine': {
-        mk: 'Црвено вино',
+        mk: 'Тга за југ',
         en: 'Red Wine',
         el: 'Κόκκινο κρασί',
       },

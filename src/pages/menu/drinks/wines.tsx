@@ -9,46 +9,20 @@ const Wines = () => {
   return (
     <MenuCategoryPage backLink='/drinks' titleKey='drink.wine'>
       <tr>
-        <td>
-          {t('wine.temjanika')} 0.187л
-        </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{t('wine.temjanika')} 0.187л</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
       <tr>
-        <td>
-          {t('wine.red_wine')} 0.187л
-        </td>
-        <td>{menuPrice(220, 3.7)}</td>
+        <td>{t('wine.red_wine')} 0.187л</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
       <tr>
-        <td>
-          {t('wine.alexandria')} 0.750л
-        </td>
+        <td>{t('wine.alexandria')} 0.750л</td>
         <td>{menuPrice(700, 12)}</td>
       </tr>
       <tr>
-        <td>
-          {t('wine.alexandria')} 0.187л
-        </td>
-        <td>{menuPrice(220, 3.7)}</td>
-      </tr>
-      <tr>
-        <td>
-          {t('wine.alexandria_couve')} 0.187л
-        </td>
-        <td>{menuPrice(220, 3.7)}</td>
-      </tr>
-      <tr>
-        <td>
-          {t('wine.traminec')} 0.187л
-        </td>
-        <td>{menuPrice(220, 3.7)}</td>
-      </tr>
-      <tr>
-        <td>
-          {t('wine.rose')} 0.750л
-        </td>
-        <td>{menuPrice(700, 12)}</td>
+        <td>{t('wine.alexandria')} 0.187л</td>
+        <td>{menuPrice(250, 4.1)}</td>
       </tr>
     </MenuCategoryPage>
   );
