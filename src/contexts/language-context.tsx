@@ -219,8 +219,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
       'menu.choose_category': {
         mk: 'Изберете категорија',
-        en: 'Choose a category to see our offer',
-        el: 'Επιλέξτε κατηγορία για να δείτε την προσφορά μας',
+        en: 'Choose category',
+        el: 'Επιλέξτε κατηγορία',
       },
       'menu.share_text': {
         mk: 'Погледнете го нашето мени!',
