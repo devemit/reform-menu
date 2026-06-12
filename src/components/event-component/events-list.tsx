@@ -6,7 +6,6 @@ const EventsList = () => {
   return (
     <div>
       <div className='event_two'>
-        <img src='dezero.jpg' alt='figue' className='figure' />
         <div className='content_two' data-aos='fade-left'>
           <h2>{t('events.events_title')}</h2>
           <ul className='events'>
@@ -14,8 +13,9 @@ const EventsList = () => {
             <li>{t('events.christenings')}</li>
             <li>{t('events.pre_wedding')}</li>
             <li>{t('events.business')}</li>
+            <li>{t('events.private_parties')}</li>
+            <li>{t('events.proposals')}</li>
           </ul>
-          <img src='wavever.png' alt='/' className='wavever' />
         </div>
       </div>
     </div>

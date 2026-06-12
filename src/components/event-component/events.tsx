@@ -13,18 +13,15 @@ const Events = () => {
   }, []);
 
   return (
-    <div className='event_container'>
+    <section className='event_container'>
       <div className='event_one'>
-        <img src='reform.jpg' alt='figue' className='figure' />
-        <img src='tile.png' alt='/' className='tile' />
         <div className='text_one' data-aos='fade-right'>
           <h2>{t('events.title')}</h2>
           <p>{t('events.description')}</p>
-          <img src='wavehor.png' alt='/' className='wavehor' />
         </div>
       </div>
       <EventsList />
-    </div>
+    </section>
   );
 };
 

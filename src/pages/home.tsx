@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div className='home-page'>
       <Menu />
-      <Capacity />
       <Events />
+      <Capacity />
       <footer className='home_footer'>
         <div className='home_footer_hours'>
           <div className='home_footer_hours_block'>

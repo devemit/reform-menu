@@ -266,6 +266,36 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Business events',
         el: 'Επιχειρηματικές εκδηλώσεις',
       },
+      'events.private_parties': {
+        mk: 'Приватни забави',
+        en: 'Private parties',
+        el: 'Ιδιωτικά πάρτι',
+      },
+      'events.proposals': {
+        mk: 'Предлози за брак',
+        en: 'Proposals',
+        el: 'Προτάσεις γάμου',
+      },
+      'gallery.title': {
+        mk: 'Галерија',
+        en: 'Gallery',
+        el: 'Γκαλερί',
+      },
+      'gallery.button': {
+        mk: 'Галерија',
+        en: 'Gallery',
+        el: 'Γκαλερί',
+      },
+      'gallery.reform_alt': {
+        mk: 'Поглед на Reform Beach & Bar',
+        en: 'View of Reform Beach & Bar',
+        el: 'Θέα στο Reform Beach & Bar',
+      },
+      'gallery.events_alt': {
+        mk: 'Атмосфера за настани во Reform',
+        en: 'Event atmosphere at Reform',
+        el: 'Ατμόσφαιρα εκδηλώσεων στο Reform',
+      },
 
       // Alcohol products
       'alcohol.vigor': {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BsShare } from 'react-icons/bs';
+import { BsImages, BsShare } from 'react-icons/bs';
 import ImageComponent from './image-component';
 import { useLanguage } from '../../contexts/language-context';
 import './menu.css';
@@ -46,15 +46,21 @@ const Menu = () => {
     <section className='menu-section'>
       <div className='menu-section__intro'>
         <p className='menu-section__title'>{t('menu.choose_category')}</p>
-        <button
-          type='button'
-          className='menu-section__share'
-          onClick={handleShare}
-          aria-label={t('footer.share')}
-        >
-          <BsShare size={12} aria-hidden />
-          {shareFeedback ? t('footer.shared') : t('footer.share')}
-        </button>
+        <div className='menu-section__actions'>
+          <button
+            type='button'
+            className='menu-section__share'
+            onClick={handleShare}
+            aria-label={t('footer.share')}
+          >
+            <BsShare size={12} aria-hidden />
+            {shareFeedback ? t('footer.shared') : t('footer.share')}
+          </button>
+          <NavLink className='menu-section__gallery' to='/gallery'>
+            <BsImages size={14} aria-hidden />
+            {t('gallery.button')}
+          </NavLink>
+        </div>
       </div>
       <div className='menu_container'>
         {menuCards.map(({ image, link, titleKey }) => (

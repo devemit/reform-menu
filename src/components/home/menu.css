@@ -44,6 +44,41 @@
   background: rgba(176, 133, 47, 0.16);
 }
 
+.menu-section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.menu-section__gallery {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 28px;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(176, 133, 47, 0.4);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--gold);
+  font-family: var(--app-font);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 8px 18px rgba(176, 133, 47, 0.12);
+  backdrop-filter: blur(8px);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.menu-section__gallery:active {
+  transform: scale(0.98);
+}
+
 .menu_container {
   display: flex;
   flex-direction: column;
@@ -78,6 +113,13 @@
 
   .men:hover .menu-card_image {
     transform: scale(1.04);
+  }
+
+  .menu-section__gallery:hover {
+    border-color: rgba(176, 133, 47, 0.68);
+    background: rgba(176, 133, 47, 0.12);
+    box-shadow: 0 12px 24px rgba(176, 133, 47, 0.18);
+    transform: translateY(-1px);
   }
 }
 

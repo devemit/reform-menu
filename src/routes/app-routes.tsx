@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import './app-routes.css';
 
 const Home = lazy(() => import('../pages/home'));
+const Gallery = lazy(() => import('../pages/gallery'));
 const Foods = lazy(() => import('../pages/menu/foods/foods'));
 const Breakfast = lazy(() => import('../pages/menu/foods/breakfast'));
 const Appetizers = lazy(() => import('../pages/menu/foods/appetizers'));
@@ -29,6 +30,7 @@ export const AppRoutes = () => (
   <Suspense fallback={routeFallback}>
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/gallery' element={<Gallery />} />
       <Route path='/foods' element={<Foods />} />
       <Route path='/foods/breakfast' element={<Breakfast />} />
       <Route path='/foods/appetizers' element={<Appetizers />} />
