@@ -1,4 +1,11 @@
 
+.home-page {
+  min-height: calc(100vh - 95px);
+  background:
+    radial-gradient(circle at 18% 0%, rgba(176, 133, 47, 0.12), transparent 30rem),
+    linear-gradient(180deg, #f7fbff 0%, #ffffff 45%, #f3f8f6 100%);
+}
+
 .home_footer {
   padding: 1.5rem 1rem;
   display: flex;
@@ -40,23 +47,3 @@
   text-align: center;
 }
 
-.home_footer_share {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1.25rem;
-  background: rgba(176, 133, 47, 0.1);
-  border: 2px solid var(--gold);
-  border-radius: 24px;
-  color: var(--gold);
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
-  min-height: 44px;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.home_footer_share:active {
-  background: rgba(176, 133, 47, 0.2);
-}

@@ -217,6 +217,17 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Αντιγράφηκε!',
       },
 
+      'menu.choose_category': {
+        mk: 'Изберете категорија',
+        en: 'Choose a category to see our offer',
+        el: 'Επιλέξτε κατηγορία για να δείτε την προσφορά μας',
+      },
+      'menu.share_text': {
+        mk: 'Погледнете го нашето мени!',
+        en: 'Check out our menu!',
+        el: 'Δείτε το μενού μας!',
+      },
+
       // Events section
       'events.title': {
         mk: 'Реформ',
@@ -695,7 +706,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Κλασικά',
       },
       'cocktail.type.signatures': {
-        mk: 'Авторски',
+        mk: 'Специјални',
         en: 'Signatures',
         el: 'Signature',
       },

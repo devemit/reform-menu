@@ -46,14 +46,14 @@
   background: rgba(255, 255, 255, 0.88);
   box-shadow: 0 8px 24px rgba(26, 31, 54, 0.07);
   color: var(--gold);
-  font-family: 'Macondo', cursive;
+  font-family: var(--app-font);
   text-align: center;
 }
 
 .cocktails-page__type-title {
-  font-family: 'Macondo', cursive;
+  font-family: var(--app-font);
   font-size: clamp(1.25rem, 4.4vw, 2rem);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.12rem;
   line-height: 1.15;
   text-transform: uppercase;
@@ -61,9 +61,9 @@
 
 .cocktails-page__type-price {
   color: inherit;
-  font-family: 'Macondo', cursive;
+  font-family: var(--app-font);
   font-size: clamp(1.1rem, 4vw, 1.55rem);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.08rem;
   line-height: 1.15;
 }
