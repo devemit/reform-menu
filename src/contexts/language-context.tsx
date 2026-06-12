@@ -286,6 +286,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Gallery',
         el: 'Γκαλερί',
       },
+      'gallery.photo_alt': {
+        mk: 'Фотографија од галерија',
+        en: 'Gallery photo',
+        el: 'Φωτογραφία γκαλερί',
+      },
       'gallery.reform_alt': {
         mk: 'Поглед на Reform Beach & Bar',
         en: 'View of Reform Beach & Bar',
