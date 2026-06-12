@@ -688,6 +688,23 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         el: 'Ροζέ',
       },
 
+      // Cocktail type groups
+      'cocktail.type.classics': {
+        mk: 'Класични',
+        en: 'Classics',
+        el: 'Κλασικά',
+      },
+      'cocktail.type.signatures': {
+        mk: 'Авторски',
+        en: 'Signatures',
+        el: 'Signature',
+      },
+      'cocktail.type.non_alcohol': {
+        mk: 'Безалкохолни',
+        en: 'Non-alcohol',
+        el: 'Χωρίς αλκοόλ',
+      },
+
       // Cocktail products
       'cocktail.mojito': {
         mk: 'Мохито',

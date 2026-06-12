@@ -1,78 +1,44 @@
-import { MenuCategoryPage } from '../../../components/menu-category-page/menu-category-page';
+import CircleLinkButton from '../../../components/circle-link-button/circle-link-button';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useLanguage } from '../../../contexts/language-context';
 import { useMenuPrice } from '../../../hooks/use-menu-price';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import './cocktails.css';
+
+const cocktailTypes = [
+  { titleKey: 'cocktail.type.classics', den: 250, euro: 4.1 },
+  { titleKey: 'cocktail.type.signatures', den: 300, euro: 5 },
+  { titleKey: 'cocktail.type.non_alcohol', den: 150, euro: 2.5 },
+];
 
 const Cocktails = () => {
   const { t } = useLanguage();
   const { menuPrice } = useMenuPrice();
 
   return (
-    <MenuCategoryPage backLink='/drinks' titleKey='drink.cocktails'>
-      <tr>
-        <td>{t('cocktail.mojito')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.pina_colada')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.strawberry_colada')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.cosmopolitan')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.margarita')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.strawberry_margarita')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.tequila_sunrise')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.sandcastle')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.sex_on_beach')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.blue_lagoon')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.flamingo')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.blue_hawaii')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.cuba_libre')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.amf')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.arizona_twister')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.long_island')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-    </MenuCategoryPage>
+    <section className='cocktails-page'>
+      <div className='cocktails-page__toolbar'>
+        <CircleLinkButton link='/drinks' />
+      </div>
+      <div className='cocktails-page__content'>
+        <ul className='cocktails-page__types'>
+          {cocktailTypes.map(({ titleKey, den, euro }) => (
+            <li className='cocktails-page__type' key={titleKey}>
+              <span className='cocktails-page__type-title'>{t(titleKey)}</span>
+              <span className='cocktails-page__type-price'>{menuPrice(den, euro)}</span>
+            </li>
+          ))}
+        </ul>
+        <LazyLoadImage
+          className='cocktails-page__image'
+          src='/signatures.jpg'
+          alt='Cocktails at Reform'
+          effect='blur'
+          threshold={100}
+          wrapperClassName='cocktails-page__image-wrapper'
+        />
+      </div>
+    </section>
   );
 };
 

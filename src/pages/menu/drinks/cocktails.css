@@ -1,0 +1,108 @@
+.cocktails-page {
+  width: 100%;
+  min-height: calc(100vh - 95px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1.5rem 5rem;
+}
+
+.cocktails-page__toolbar {
+  width: 100%;
+  max-width: 780px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.cocktails-page__content {
+  width: 100%;
+  max-width: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.cocktails-page__types {
+  width: 100%;
+  display: grid;
+  gap: 0.85rem;
+  list-style: none;
+}
+
+.cocktails-page__type {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(176, 133, 47, 0.26);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 8px 24px rgba(26, 31, 54, 0.07);
+  color: var(--gold);
+  font-family: 'Macondo', cursive;
+  text-align: center;
+}
+
+.cocktails-page__type-title {
+  font-family: 'Macondo', cursive;
+  font-size: clamp(1.25rem, 4.4vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.12rem;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.cocktails-page__type-price {
+  color: inherit;
+  font-family: 'Macondo', cursive;
+  font-size: clamp(1.1rem, 4vw, 1.55rem);
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+  line-height: 1.15;
+}
+
+.cocktails-page__image-wrapper {
+  width: 100%;
+  display: block !important;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 18px 44px rgba(26, 31, 54, 0.22);
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: cocktails-image-shimmer 1.5s infinite;
+}
+
+.cocktails-page__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+@keyframes cocktails-image-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (min-width: 680px) {
+  .cocktails-page__types {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cocktails-page__type {
+    justify-content: center;
+    min-height: 104px;
+  }
+}
