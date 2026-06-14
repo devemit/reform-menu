@@ -12,7 +12,12 @@ const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <Link className='menu-card' to={link} aria-label={title}>
+    <Link
+      className='menu-card'
+      to={link}
+      state={{ fromMenuCard: true }}
+      aria-label={title}
+    >
       <div className='menu-card__media'>
         {!isLoaded && <div className='menu-card__shimmer' aria-hidden />}
         <img

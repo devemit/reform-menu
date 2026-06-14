@@ -16,7 +16,7 @@ export const MenuCategoryPage = ({ backLink, titleKey, children }: MenuCategoryP
   return (
     <div className='table'>
       <div className='menu-page-toolbar'>
-        <CircleLinkButton link={backLink} />
+        <CircleLinkButton link={backLink} useHistoryBack />
         <SectionTitle label={t(titleKey)} />
       </div>
       <table>
