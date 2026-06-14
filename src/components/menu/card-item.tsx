@@ -12,7 +12,7 @@ const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div>
+    <Link className='menu-card' to={link} aria-label={title}>
       <div className='menu-card__media'>
         {!isLoaded && <div className='menu-card__shimmer' aria-hidden />}
         <img
@@ -23,10 +23,8 @@ const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
           onLoad={() => setIsLoaded(true)}
         />
       </div>
-      <Link className='drinks-nav_btn' to={link}>
-        {title}
-      </Link>
-    </div>
+      <span className='menu-card__label'>{title}</span>
+    </Link>
   );
 };
 

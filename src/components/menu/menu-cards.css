@@ -29,12 +29,20 @@
   }
 }
 
-.card_grid > div {
+.menu-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
   background: #fff;
   border-radius: var(--menu-card-border-radius, 16px);
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(176, 133, 47, 0.15);
   border: 1px solid rgba(176, 133, 47, 0.2);
+}
+
+.menu-card:focus-visible {
+  outline: 3px solid rgba(176, 133, 47, 0.45);
+  outline-offset: 3px;
 }
 
 .menu-card__media {
@@ -67,7 +75,7 @@
   opacity: 1;
 }
 
-.drinks-nav_btn {
+.menu-card__label {
   text-decoration: none;
   border-top: 2px solid rgba(176, 133, 47, 0.3);
   color: var(--gold);
