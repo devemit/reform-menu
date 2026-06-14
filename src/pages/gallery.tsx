@@ -35,8 +35,6 @@ const galleryImages = [
   { src: '/40.jpg' },
   { src: '/41.jpg' },
   { src: '/42.jpg' },
-  { src: '/reform.jpg', altKey: 'gallery.reform_alt' },
-  { src: '/dezero.jpg', altKey: 'gallery.events_alt' },
 ];
 
 const getGalleryLayout = () => {
@@ -64,9 +62,8 @@ export default function Gallery() {
     () =>
       galleryImages.map((image, index) => ({
         src: image.src,
-        alt: image.altKey ? t(image.altKey) : `${t('gallery.photo_alt')} ${index + 1}`,
       })),
-    [t],
+    [t]
   );
 
   useEffect(() => {
@@ -83,24 +80,24 @@ export default function Gallery() {
       return undefined;
     }
 
-    const cleanup = Array.from(galleryElement.querySelectorAll<HTMLImageElement>('img')).map(
-      (image) => {
-        const figure = image.closest('figure');
-        image.loading = 'lazy';
-        image.decoding = 'async';
-        image.classList.add('gallery-library-image');
-        figure?.classList.add('gallery-library-figure');
+    const cleanup = Array.from(
+      galleryElement.querySelectorAll<HTMLImageElement>('img')
+    ).map((image) => {
+      const figure = image.closest('figure');
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.classList.add('gallery-library-image');
+      figure?.classList.add('gallery-library-figure');
 
-        if (image.complete && image.naturalWidth > 0) {
-          figure?.classList.add('is-loaded');
-          return () => {};
-        }
+      if (image.complete && image.naturalWidth > 0) {
+        figure?.classList.add('is-loaded');
+        return () => {};
+      }
 
-        const handleLoad = () => figure?.classList.add('is-loaded');
-        image.addEventListener('load', handleLoad, { once: true });
-        return () => image.removeEventListener('load', handleLoad);
-      },
-    );
+      const handleLoad = () => figure?.classList.add('is-loaded');
+      image.addEventListener('load', handleLoad, { once: true });
+      return () => image.removeEventListener('load', handleLoad);
+    });
 
     return () => cleanup.forEach((cleanupImage) => cleanupImage());
   }, [imagesInfoArray, layout]);
@@ -112,7 +109,9 @@ export default function Gallery() {
       return undefined;
     }
 
-    const buttons = Array.from(galleryElement.querySelectorAll<HTMLButtonElement>('button'));
+    const buttons = Array.from(
+      galleryElement.querySelectorAll<HTMLButtonElement>('button')
+    );
     buttons.forEach((button) => {
       button.tabIndex = -1;
       button.setAttribute('aria-disabled', 'true');
