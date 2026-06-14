@@ -24,7 +24,12 @@ const Juices = lazy(() => import('../pages/menu/drinks/juices'));
 const Cocktails = lazy(() => import('../pages/menu/drinks/cocktails'));
 const Alcohol = lazy(() => import('../pages/menu/drinks/alcohol'));
 
-const routeFallback = <div className='route-fallback'>Loading…</div>;
+const routeFallback = (
+  <div className='route-fallback' role='status' aria-live='polite'>
+    <img className='route-fallback__logo' src='/r.png' alt='' />
+    <span className='route-fallback__text'>Loading</span>
+  </div>
+);
 
 export const AppRoutes = () => (
   <Suspense fallback={routeFallback}>
