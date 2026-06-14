@@ -62,6 +62,7 @@ export default function Gallery() {
     () =>
       galleryImages.map((image, index) => ({
         src: image.src,
+        alt: `${t('gallery.photo_alt')} ${index + 1}`,
       })),
     [t]
   );
