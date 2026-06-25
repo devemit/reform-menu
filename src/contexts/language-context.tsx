@@ -157,6 +157,26 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         en: 'Cocktails',
         el: 'Κοκτέιλ',
       },
+      'cocktail.categories': {
+        mk: 'Категории на коктели',
+        en: 'Cocktail categories',
+        el: 'Κατηγορίες κοκτέιλ',
+      },
+      'cocktail.category.classics': {
+        mk: 'Класични',
+        en: 'Classics',
+        el: 'Κλασικά',
+      },
+      'cocktail.category.signatures': {
+        mk: 'Специјални',
+        en: 'Signatures',
+        el: 'Signature',
+      },
+      'cocktail.category.non_alcohol': {
+        mk: 'Безалкохолни',
+        en: 'Non-alcohol',
+        el: 'Χωρίς αλκοόλ',
+      },
       'drink.wine': {
         mk: 'Вино',
         en: 'Wine',

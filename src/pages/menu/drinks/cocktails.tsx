@@ -1,78 +1,36 @@
-import { MenuCategoryPage } from '../../../components/menu-category-page/menu-category-page';
+import CircleLinkButton from '../../../components/circle-link-button/circle-link-button';
 import { useLanguage } from '../../../contexts/language-context';
-import { useMenuPrice } from '../../../hooks/use-menu-price';
+import './cocktails.css';
+
+const cocktailCategories = [
+  'cocktail.category.classics',
+  'cocktail.category.signatures',
+  'cocktail.category.non_alcohol',
+];
 
 const Cocktails = () => {
   const { t } = useLanguage();
-  const { menuPrice } = useMenuPrice();
 
   return (
-    <MenuCategoryPage backLink='/drinks' titleKey='drink.cocktails'>
-      <tr>
-        <td>{t('cocktail.mojito')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.pina_colada')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.strawberry_colada')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.cosmopolitan')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.margarita')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.strawberry_margarita')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.tequila_sunrise')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.sandcastle')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.sex_on_beach')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.blue_lagoon')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.flamingo')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.blue_hawaii')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.cuba_libre')}</td>
-        <td>{menuPrice(200, 3.5)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.amf')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.arizona_twister')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-      <tr>
-        <td>{t('cocktail.long_island')}</td>
-        <td>{menuPrice(250, 4.1)}</td>
-      </tr>
-    </MenuCategoryPage>
+    <main className='cocktails-page'>
+      <div className='cocktails-page__toolbar'>
+        <CircleLinkButton link='/drinks' useHistoryBack />
+      </div>
+
+      <section className='cocktails-page__content' aria-label={t('drink.cocktails')}>
+        <ul className='cocktails-page__categories' aria-label={t('cocktail.categories')}>
+          {cocktailCategories.map((categoryKey) => (
+            <li className='cocktails-page__category' key={categoryKey}>
+              {t(categoryKey)}
+            </li>
+          ))}
+        </ul>
+
+        <div className='cocktails-page__image-frame'>
+          <img className='cocktails-page__image' src='/kokteli.jpg' alt={t('drink.cocktails')} />
+        </div>
+      </section>
+    </main>
   );
 };
 
