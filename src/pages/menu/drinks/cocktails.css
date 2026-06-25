@@ -37,7 +37,8 @@
   min-height: 4.25rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 0.95rem 1.25rem;
   border: 1px solid rgba(176, 133, 47, 0.45);
   border-radius: 8px;
@@ -50,9 +51,20 @@
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.4;
-  text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.78);
+}
+
+.cocktails-page__category-name {
+  text-align: left;
   text-transform: uppercase;
+}
+
+.cocktails-page__category-price {
+  color: var(--blue);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  white-space: nowrap;
 }
 
 .cocktails-page__image-frame {
