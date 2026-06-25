@@ -4,7 +4,7 @@ import { useMenuPrice } from '../../../hooks/use-menu-price';
 import './cocktails.css';
 
 const cocktailCategories = [
-  { labelKey: 'cocktail.category.classics', den: 250, euro: 4.1 },
+  { labelKey: 'cocktail.category.classics', den: 250, euro: 4.2 },
   { labelKey: 'cocktail.category.signatures', den: 300, euro: 5 },
   { labelKey: 'cocktail.category.non_alcohol', den: 150, euro: 2.5 },
 ];

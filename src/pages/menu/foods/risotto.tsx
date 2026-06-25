@@ -30,7 +30,7 @@ export default function Risotto() {
           <br />
           <span className='menu-page-ingredients'>{t('ingredients.risotto_chicken')}</span>
         </td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
     </MenuCategoryPage>
   );

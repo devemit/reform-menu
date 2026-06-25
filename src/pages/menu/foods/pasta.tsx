@@ -16,7 +16,7 @@ export default function Pasta() {
             {t('ingredients.pasta_bolognese')}
           </span>
         </td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -26,7 +26,7 @@ export default function Pasta() {
             {t('ingredients.pasta_carbonara')}
           </span>
         </td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>

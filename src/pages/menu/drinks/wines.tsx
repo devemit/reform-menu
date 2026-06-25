@@ -10,11 +10,11 @@ const Wines = () => {
     <MenuCategoryPage backLink='/drinks' titleKey='drink.wine'>
       <tr>
         <td>{t('wine.temjanika')} 0.187л</td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td>{t('wine.red_wine')} 0.187л</td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td>{t('wine.alexandria')} 0.750л</td>
@@ -22,7 +22,7 @@ const Wines = () => {
       </tr>
       <tr>
         <td>{t('wine.alexandria')} 0.187л</td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
     </MenuCategoryPage>
   );

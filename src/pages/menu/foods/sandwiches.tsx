@@ -16,7 +16,7 @@ export default function Sandwiches() {
             {t('ingredients.sandwich_reform_club')}
           </span>
         </td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
@@ -26,7 +26,7 @@ export default function Sandwiches() {
             {t('ingredients.sandwich_reform_royal')}
           </span>
         </td>
-        <td>{menuPrice(250, 4.1)}</td>
+        <td>{menuPrice(250, 4.2)}</td>
       </tr>
       <tr>
         <td className='menu-page-product-cell'>
