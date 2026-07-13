@@ -18,7 +18,7 @@ const Wines = () => {
       </tr>
       <tr>
         <td>{t('wine.alexandria')} 0.750л</td>
-        <td>{menuPrice(700, 12)}</td>
+        <td>{menuPrice(800, 13.5)}</td>
       </tr>
       <tr>
         <td>{t('wine.alexandria')} 0.187л</td>
