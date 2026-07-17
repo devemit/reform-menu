@@ -12,7 +12,7 @@ const Juices = () => {
         <td>
           {t('juice.coca_cola')} 0.250l
         </td>
-        <td>{menuPrice(100, 1.7)}</td>
+        <td>{menuPrice(110, 1.9)}</td>
       </tr>
       <tr>
         <td>
