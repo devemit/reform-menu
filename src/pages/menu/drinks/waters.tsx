@@ -10,7 +10,7 @@ const Waters = () => {
     <MenuCategoryPage backLink='/drinks' titleKey='drink.water'>
       <tr>
         <td>{t('water.rosa')}</td>
-        <td>{menuPrice(60, 1)}</td>
+        <td>{menuPrice(70, 1.2)}</td>
       </tr>
       <tr>
         <td>{t('water.mineral_water')}</td>
