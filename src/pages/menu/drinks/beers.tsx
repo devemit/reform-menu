@@ -14,7 +14,7 @@ const Beers = () => {
       </tr>
       <tr>
         <td>{t('beer.amstel')}</td>
-        <td>{menuPrice(120, 2)}</td>
+        <td>{menuPrice(130, 2.2)}</td>
       </tr>
       <tr>
         <td>{t('beer.heineken')}</td>
@@ -26,15 +26,15 @@ const Beers = () => {
       </tr>
       <tr>
         <td>{t('beer.radler')}</td>
-        <td>{menuPrice(110, 1.8)}</td>
+        <td>{menuPrice(120, 2)}</td>
       </tr>
       <tr>
         <td>{t('beer.pint_small')}</td>
-        <td>{menuPrice(100, 1.7)}</td>
+        <td>{menuPrice(110, 1.9)}</td>
       </tr>
       <tr>
         <td>{t('beer.pint_big')}</td>
-        <td>{menuPrice(130, 2.2)}</td>
+        <td>{menuPrice(140, 2.4)}</td>
       </tr>
     </MenuCategoryPage>
   );
